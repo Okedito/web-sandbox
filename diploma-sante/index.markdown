@@ -8,7 +8,7 @@ layout: page
 
 <h2>Préambule</h2>
 
-<p>Cette page récapitule différents éléments et outils rendus disponibles depuis le compte HubSpot. La liste des éléments pourra être enrichie au fur et à mesure de l'avancement du projet. Ces éléments ont été conçus et implémentés dans le cadre de l'accompagnement au déploiement de HubSpot fourni par Okédito, et en ligne avec les enjeux stratégiqies d'acquisition et de conversion validés avec le client.</p>
+<p>Cette page récapitule différents éléments et outils rendus disponibles depuis le compte HubSpot. La liste des éléments pourra être enrichie au fur et à mesure de l'avancement du projet. Ces éléments ont été conçus et implémentés dans le cadre de l'accompagnement au déploiement de HubSpot fourni par Okédito, et en ligne avec les enjeux stratégiques d'acquisition et de conversion validés avec le client.</p>
 
 <p>Les formulaires (hormis le formulaire de prise de RDV) sont des formulaires HTML simples : la mise en forme se fera au moyen de l'application de styles CSS au niveau du front end, dans le contexte technique choisi.</p>
 
