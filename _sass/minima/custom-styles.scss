@@ -1,2 +1,11 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.hbspt-form form {
+    padding: 0.75em;
+    background-color: #e6e6e6;
+    border: 1px solid #A6A6A6;
+    }
+
+.hbspt-form li {list-style : none;margin:0; padding:0;}
+.hbspt-form div {padding: 4px 0;}

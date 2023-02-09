@@ -5,6 +5,27 @@ title: Diploma Santé
 layout: page
 ---
 
+
+<h2>Préambule</h2>
+
+<p>Cette page récapitule différents éléments et outils rendus disponibles depuis le compte HubSpot. La liste des éléments pourra être enrichie au fur et à mesure de l'avancement du projet. Ces éléments ont été conçus et implémentés dans le cadre de l'accompagnement au déploiement de HubSpot fourni par Okédito, et en ligne avec les enjeux stratégiqies d'acquisition et de conversion validés avec le client.</p>
+
+<p>Les formulaires (hormis le formulaire de prise de RDV) sont des formulaires HTML simples : la mise en forme se fera au moyen de l'application de styles CSS au niveau du front end, dans le contexte technique choisi.</p>
+
+<p>L'intégration d'un formulaire se fait par le simple dépôt du code fourni dans la div où doit apparaître le formulaire en question.</p>
+
+<hr style="margin:2em 0">
+
+<h2>Tracking code HubSpot</h2>
+
+<p>A insérer sur <strong>toutes</strong> les pages du site web.</p>
+
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/26711031.js"></script>
+    <!-- End of HubSpot Embed Code —>
+
+<hr style="margin:2em 0">
+
 <h2>Formulaire 1 - Abonné newsletter</h2>
 
     <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
@@ -125,3 +146,8 @@ layout: page
 <div class="meetings-iframe-container" data-src="https://meetings-eu1.hubspot.com/benjamin-haddad/votre-expert-diploma?embed=true"></div>
 <script type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
 <!-- End of Meetings Embed Script -->
+
+<hr style="margin:2em 0">
+
+
+<p><i>* Note regardant la confidentialité : tous les éléments présentés ici ont pour vocation d'être intégrés en front-end, et ne constituent donc pas des données sensibles.</i></p>
