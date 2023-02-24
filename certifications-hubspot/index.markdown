@@ -125,7 +125,7 @@ layout: page
 <h2>Data Integrations</h2>
 
 <!-- Begin: HubSpot Academy - Data Integrations Certification Badge -->
-<div class='academy-badge'>
+<div class='academy-badge' style="width:50%">
 <a href='https://app.hubspot.com/academy/achievements/rpthc2dv/fr/1/daniele-lodola/data-integrations-certification' title='Data Integrations Certification'>
 <img src='https://hubspot-credentials-na1.s3.amazonaws.com/prod/badges/user/3db167b808644515adb7a14b5a837356.png' />
 </a>
