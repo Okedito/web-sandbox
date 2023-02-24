@@ -29,6 +29,14 @@ layout: page
 </div>
 <!-- End: HubSpot Academy - Marketing Hub de HubSpot  Badge -->
 
+<!-- Begin: HubSpot Academy - HubSpot Marketing Software Badge -->
+<div class='academy-badge' style="width:50%">
+<a href='https://app.hubspot.com/academy/achievements/v391bz32/fr/1/simon-jacquot/marketing-hub-de-hubspot' title='HubSpot Marketing Software'>
+<img src='https://hubspot-credentials-na1.s3.amazonaws.com/prod/badges/user/c5ecdf7f12584d8aa39dcbf67a4acbe7.png' />
+</a>
+</div>
+<!-- End: HubSpot Academy - HubSpot Marketing Software Badge -->
+
 <hr style="margin:2em 0">
 
 
@@ -38,6 +46,14 @@ layout: page
 <div class='academy-badge' style="width:50%">
 <a href='https://app-eu1.hubspot.com/academy/achievements/0wftwtl1/fr/1/philippine-bazin/sales-hub-de-hubspot' title='Sales Hub de HubSpot'>
 <img src='https://hubspot-credentials-na1.s3.amazonaws.com/prod/badges/user/26658bea4e284b26acad97512ebec4e5.png' />
+</a>
+</div>
+<!-- End: HubSpot Academy - Sales Hub de HubSpot Badge -->
+
+<!-- Begin: HubSpot Academy - Sales Hub de HubSpot Badge -->
+<div class='academy-badge' style="width:50%">
+<a href='https://app.hubspot.com/academy/achievements/4klf27rv/fr/1/simon-jacquot/sales-hub-de-hubspot' title='Sales Hub de HubSpot'>
+<img src='https://hubspot-credentials-na1.s3.amazonaws.com/prod/badges/user/e018d15861d8444eb27c371b4336be37.png' />
 </a>
 </div>
 <!-- End: HubSpot Academy - Sales Hub de HubSpot Badge -->
