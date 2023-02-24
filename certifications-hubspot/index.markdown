@@ -8,20 +8,60 @@ layout: page
 
 <h2>Reporting</h2>
 
+<!-- Begin: HubSpot Academy - HubSpot Reporting Badge -->
+<div class='academy-badge' style="width:50%">
+<a href='https://app.hubspot.com/academy/achievements/2tlf75ys/fr/1/philippine-bazin/hubspot-reporting' title='HubSpot Reporting'>
+<img src='https://hubspot-credentials-na1.s3.amazonaws.com/prod/badges/user/b4a07009344e42b89b410279efc5c716.png' />
+</a>
+</div>
+<!-- End: HubSpot Academy - HubSpot Reporting Badge -->
+
 <hr style="margin:2em 0">
 
 
 <h2>Marketing Hub Software</h2>
+
+<!-- Begin: HubSpot Academy - Marketing Hub de HubSpot  Badge -->
+<div class='academy-badge' style="width:50%">
+<a href='https://app.hubspot.com/academy/achievements/hq7b9tss/fr/1/philippine-bazin/marketing-hub-de-hubspot' title='Marketing Hub de HubSpot '>
+<img src='https://hubspot-credentials-na1.s3.amazonaws.com/prod/badges/user/0349b5c5e8b847a9b6aaae2249b41734.png' />
+</a>
+</div>
+<!-- End: HubSpot Academy - Marketing Hub de HubSpot  Badge -->
 
 <hr style="margin:2em 0">
 
 
 <h2>Sales Hub Software</h2>
 
+<!-- Begin: HubSpot Academy - Sales Hub de HubSpot Badge -->
+<div class='academy-badge' style="width:50%">
+<a href='https://app-eu1.hubspot.com/academy/achievements/0wftwtl1/fr/1/philippine-bazin/sales-hub-de-hubspot' title='Sales Hub de HubSpot'>
+<img src='https://hubspot-credentials-na1.s3.amazonaws.com/prod/badges/user/26658bea4e284b26acad97512ebec4e5.png' />
+</a>
+</div>
+<!-- End: HubSpot Academy - Sales Hub de HubSpot Badge -->
+
 <hr style="margin:2em 0">
 
 
 <h2>Service Hub Software</h2>
+
+<!-- Begin: HubSpot Academy - Certification au logiciel Service Hub Badge -->
+<div class='academy-badge' style="width:50%">
+<a href='https://app.hubspot.com/academy/achievements/tzjh62tv/fr/1/philippine-bazin/certification-au-logiciel-service-hub' title='Certification au logiciel Service Hub'>
+<img src='https://hubspot-credentials-na1.s3.amazonaws.com/prod/badges/user/390c5fca9f9d4fc1bb914a5a2dec716f.png' />
+</a>
+</div>
+<!-- End: HubSpot Academy - Certification au logiciel Service Hub Badge -->
+
+<!-- Begin: HubSpot Academy - Certification au logiciel Service Hub Badge -->
+<div class='academy-badge' style="width:50%">
+<a href='https://app-eu1.hubspot.com/academy/achievements/6c1g4r4q/fr/1/thomas-hintermeier/certification-au-logiciel-service-hub' title='Certification au logiciel Service Hub'>
+<img src='https://hubspot-credentials-na1.s3.amazonaws.com/prod/badges/user/de788f594c6248fea49d320d426886ce.png' />
+</a>
+</div>
+<!-- End: HubSpot Academy - Certification au logiciel Service Hub Badge -->
 
 <hr style="margin:2em 0">
 
