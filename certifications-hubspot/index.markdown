@@ -139,7 +139,7 @@ layout: page
 
 <!-- Begin: HubSpot Academy - Certification sur l'Intégration Salesforce Badge -->
 <div class='academy-badge' style="width:50%">
-<a href='https://app.hubspot.com/academy/achievements/qpj21v60/fr/1/daniele-lodola/certification-sur-lintegration-salesforce' title='Certification sur l'Intégration Salesforce'>
+<a href='https://app.hubspot.com/academy/achievements/qpj21v60/fr/1/daniele-lodola/certification-sur-lintegration-salesforce' title="Certification sur l'Intégration Salesforce">
 <img src='https://hubspot-credentials-na1.s3.amazonaws.com/prod/badges/user/c755b0440a4d4351af91525733ccb523.png' />
 </a>
 </div>
