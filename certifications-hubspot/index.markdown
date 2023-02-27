@@ -96,6 +96,14 @@ layout: page
 
 <h2>Objectives-Based Onboarding</h2>
 
+<!-- Begin: HubSpot Academy - Objectives-Based Onboarding Badge -->
+<div class='academy-badge' style="width:50%">
+<a href='https://app.hubspot.com/academy/achievements/681djz34/fr/1/daniele-lodola/objectives-based-onboarding' title='Objectives-Based Onboarding'>
+<img src='https://hubspot-credentials-na1.s3.amazonaws.com/prod/badges/user/57087c9732004eb89b3bc7584782316d.png' />
+</a>
+</div>
+<!-- End: HubSpot Academy - Objectives-Based Onboarding Badge -->
+
 <hr style="margin:2em 0">
 
 
