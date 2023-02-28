@@ -153,6 +153,14 @@ layout: page
 </div>
 <!-- End: HubSpot Academy - Implémentation du Sales Hub Badge -->
 
+<!-- Begin: HubSpot Academy - Implémentation du Sales Hub Badge -->
+<div class='academy-badge'>
+<a href='https://app.hubspot.com/academy/achievements/x94t9910/fr/1/philippine-bazin/implementation-du-sales-hub' title='Implémentation du Sales Hub'>
+<img src='https://hubspot-credentials-na1.s3.amazonaws.com/prod/badges/user/8a17804a0883400a8adc1ca288d2be49.png' />
+</a>
+</div>
+<!-- End: HubSpot Academy - Implémentation du Sales Hub Badge -->
+
 <h2>Data Integrations</h2>
 
 <!-- Begin: HubSpot Academy - Data Integrations Certification Badge -->
