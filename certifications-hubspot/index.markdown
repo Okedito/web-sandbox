@@ -37,6 +37,14 @@ layout: page
 </div>
 <!-- End: HubSpot Academy - HubSpot Marketing Software Badge -->
 
+<!-- Begin: HubSpot Academy - Marketing Hub de HubSpot  Badge -->
+<div class='academy-badge'>
+<a href='https://app.hubspot.com/academy/achievements/8jwpqkns/fr/1/thomas-hintermeier/marketing-hub-de-hubspot' title='Marketing Hub de HubSpot '>
+<img src='https://hubspot-credentials-na1.s3.amazonaws.com/prod/badges/user/38d50f8dafeb45ea8c7961cfbc7b97ca.png' />
+</a>
+</div>
+<!-- End: HubSpot Academy - Marketing Hub de HubSpot  Badge -->
+
 <hr style="margin:2em 0">
 
 
@@ -91,6 +99,14 @@ layout: page
 </div>
 <!-- End: HubSpot Academy - Platform Consulting Badge -->
 
+<!-- Begin: HubSpot Academy - Platform Consulting Badge -->
+<div class='academy-badge' style="width:50%">
+<a href='https://app.hubspot.com/academy/achievements/h037ntjz/fr/1/philippine-bazin/platform-consulting' title='Platform Consulting'>
+<img src='https://hubspot-credentials-na1.s3.amazonaws.com/prod/badges/user/a5884de86f874d378a90dfd59af5569b.png' />
+</a>
+</div>
+<!-- End: HubSpot Academy - Platform Consulting Badge -->
+
 <hr style="margin:2em 0">
 
 
@@ -117,6 +133,13 @@ layout: page
 </div>
 <!-- End: HubSpot Academy - Implémentation du Marketing Hub Badge -->
 
+<!-- Begin: HubSpot Academy - Implémentation du Marketing Hub Badge -->
+<div class='academy-badge' style="width:50%">
+<a href='https://app.hubspot.com/academy/achievements/5dpr92pl/fr/1/philippine-bazin/implementation-du-marketing-hub' title='Implémentation du Marketing Hub'>
+<img src='https://hubspot-credentials-na1.s3.amazonaws.com/prod/badges/user/5b1043da06ff4adca9a7aa3796c4ea0b.png' />
+</a>
+</div>
+<!-- End: HubSpot Academy - Implémentation du Marketing Hub Badge -->
 
 <hr style="margin:2em 0">
 
