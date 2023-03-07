@@ -52,10 +52,71 @@ layout: page
 
 <h2>Formulaire 1 - Abonné newsletter</h2>
 
+    <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+    <script>
+      hbspt.forms.create({
+        region: "eu1",
+        portalId: "25969719",
+        formId: "5f5bca25-d613-4a56-9ead-8a37627f9023"
+      });
+    </script>
+
+<script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    region: "eu1",
+    portalId: "25969719",
+    formId: "5f5bca25-d613-4a56-9ead-8a37627f9023"
+  });
+</script>
 
 <hr style="margin:2em 0">
 
-<h2>Formulaire 2 - Contact us now</h2>
+<h2>Formulaire 2 - Lead</h2>
+
+    <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+    <script>
+      hbspt.forms.create({
+        region: "eu1",
+        portalId: "25969719",
+        formId: "9b457949-309d-410d-aa10-5f4e418357b4"
+      });
+    </script>
+
+<script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    region: "eu1",
+    portalId: "25969719",
+    formId: "9b457949-309d-410d-aa10-5f4e418357b4"
+  });
+</script>
+
+<hr style="margin:2em 0">
+
+<h2>Formulaire 3 - MQL</h2>
+
+    <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+    <script>
+      hbspt.forms.create({
+        region: "eu1",
+        portalId: "25969719",
+        formId: "d2daa079-e2b3-41a9-add3-419cb32d596c"
+      });
+    </script>
+
+<script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    region: "eu1",
+    portalId: "25969719",
+    formId: "d2daa079-e2b3-41a9-add3-419cb32d596c"
+  });
+</script>
+
+<hr style="margin:2em 0">
+
+<h2>Formulaire 4 - SQL</h2>
 
     <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
     <script>
@@ -77,14 +138,9 @@ layout: page
 
 <hr style="margin:2em 0">
 
+<h2>Formulaire 5 - Qualification / Thank-you page</h2>
 
-<h2>Formulaire 3</h2>
-
-
-<hr style="margin:2em 0">
-
-<h2>Formulaire 5</h2>
-
+<p><i>To be configured</i></p>
 
 <hr style="margin:2em 0">
 
