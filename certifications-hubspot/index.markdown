@@ -50,6 +50,14 @@ layout: page
 
 <h2>Sales Hub Software</h2>
 
+<!-- Begin: HubSpot Academy - HubSpot Sales Software Badge -->
+<div class='academy-badge' style="width:50%">
+<a href='https://app.hubspot.com/academy/achievements/1gkkcm3b/fr/1/daniele-lodola/sales-hub-de-hubspot' title='HubSpot Sales Software'>
+<img src='https://hubspot-credentials-na1.s3.amazonaws.com/prod/badges/user/15cf000b7adc4c788dbb132544922089.png' />
+</a>
+</div>
+<!-- End: HubSpot Academy - HubSpot Sales Software Badge -->
+
 <!-- Begin: HubSpot Academy - Sales Hub de HubSpot Badge -->
 <div class='academy-badge' style="width:50%">
 <a href='https://app-eu1.hubspot.com/academy/achievements/0wftwtl1/fr/1/philippine-bazin/sales-hub-de-hubspot' title='Sales Hub de HubSpot'>
@@ -116,6 +124,14 @@ layout: page
 <div class='academy-badge' style="width:50%">
 <a href='https://app.hubspot.com/academy/achievements/681djz34/fr/1/daniele-lodola/objectives-based-onboarding' title='Objectives-Based Onboarding'>
 <img src='https://hubspot-credentials-na1.s3.amazonaws.com/prod/badges/user/57087c9732004eb89b3bc7584782316d.png' />
+</a>
+</div>
+<!-- End: HubSpot Academy - Objectives-Based Onboarding Badge -->
+
+<!-- Begin: HubSpot Academy - Objectives-Based Onboarding Badge -->
+<div class='academy-badge' style="width:50%">
+<a href='https://app.hubspot.com/academy/achievements/23nfx175/fr/1/philippine-bazin/objectives-based-onboarding' title='Objectives-Based Onboarding'>
+<img src='https://hubspot-credentials-na1.s3.amazonaws.com/prod/badges/user/3a8b2690450e43728b9753918560793d.png' />
 </a>
 </div>
 <!-- End: HubSpot Academy - Objectives-Based Onboarding Badge -->
