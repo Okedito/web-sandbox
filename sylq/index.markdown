@@ -140,7 +140,37 @@ layout: page
 
 <h2>Formulaire 5 - Qualification / Thank-you page</h2>
 
-<p><i>To be configured</i></p>
+<p>Le champ "E-mail" du formulaire sera automatiquement compléte. Ce formulaire propose les champs suivants en progressif (ils ne s'affichent que si une valeur est connue pour "Position"):
+  <ul>
+    <li>Department</li>
+    <li>Terminal brands</li>
+    <li>Payment method needs</li>
+    <li>Payment establishment </li>
+    <li>Number of interaction points</li>
+    <li>Average sale</li>
+    <li>Industry category</li>
+  </ul>
+</p>
+
+[Plus d'informations sur les champs progressifs](https://knowledge.hubspot.com/fr/forms/use-progressive-fields-in-forms){:target="_blank"}
+
+    <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+    <script>
+      hbspt.forms.create({
+        region: "eu1",
+        portalId: "25969719",
+        formId: "4399e57c-8c7b-4847-97b3-a3136ea4f53d"
+      });
+    </script>
+
+<script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    region: "eu1",
+    portalId: "25969719",
+    formId: "4399e57c-8c7b-4847-97b3-a3136ea4f53d"
+  });
+</script>
 
 <hr style="margin:2em 0">
 
