@@ -114,7 +114,7 @@ layout: page
 
 <hr style="margin:2em 0">
 
-<h2>Formulaire 3 - MQL Téléchargement</h2>
+<h2>Formulaire 3 - MQL Téléchargement brochure</h2>
 
     <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
     <script>
@@ -135,6 +135,29 @@ layout: page
 </script>
 
 <hr style="margin:2em 0">
+
+<h2>Formulaire 3 - MQL Téléchargement fiche de cours</h2>
+
+    <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+    <script>
+      hbspt.forms.create({
+        region: "eu1",
+        portalId: "26711031",
+        formId: "3cfdbe25-bdd9-4c77-b323-81fbd74a2cb0"
+      });
+    </script>
+
+<script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    region: "eu1",
+    portalId: "26711031",
+    formId: "3cfdbe25-bdd9-4c77-b323-81fbd74a2cb0"
+  });
+</script>
+
+<hr style="margin:2em 0">
+
 
 <h2>Prendre RDV avec un responsable pédagogique</h2>
     <!-- Start of Meetings Embed Script -->
