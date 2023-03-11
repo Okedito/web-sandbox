@@ -209,53 +209,6 @@ forms:
 
 <hr style="margin:2em 0">
 
-
-{% for form in page.forms %}
-<h2>{{ form.name }}</h2>
-
-    <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
-    <script>
-      hbspt.forms.create({
-        region: "{{ page.hs_region }}",
-        portalId: "{{ page.hs_portalId }}",
-        formId: "{{ form.id }}"
-      });
-    </script>
-  {: id="A{{ form.id }}"}
-  <button onclick="myFunction('{{ form.id }}')">Copy text</button>
-
-<script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
-<script>
-  hbspt.forms.create({
-    region: "{{ page.hs_region }}",
-    portalId: "{{ page.hs_portalId }}",
-    formId: "{{ form.id }}"
-  });
-</script>
-<hr style="margin:2em 0">
-{% endfor %}
-
-<script>
-// https://stackoverflow.com/questions/400212/how-do-i-copy-to-the-clipboard-in-javascript
-// https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard
-
-function myFunction(id) {
-  // Get the text field
-  var selector = "#A" + id + " > div > pre > code";
-  console.log('#1');
-  console.log(selector);
-  
-  var copyText = document.querySelector("#A" + id + " > div > pre > code");
-  console.log('#2');
-  console.log(copyText);
-
-  // Select the text field
-  var code = copyText.innerText;
-  console.log('#3');
-  console.log(code);
-
-  // Copy the text inside the text field
-  navigator.clipboard.writeText(code);
-}
-
-</script>
+{% if page.forms %}
+    {%- include section-forms.html -%}
+{% endif %}

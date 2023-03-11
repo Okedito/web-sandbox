@@ -26,4 +26,17 @@
       {%- include social.html -%}
     </div>
   </div>
+
+  <script>
+    function CopyToClipboard(id) {
+        // Get the text field  
+        var copyText = document.querySelector("#A" + id + " > div > pre > code");
+        
+        // Select the text field
+        var code = copyText.innerText;
+        
+        // Copy the text inside the text field
+        navigator.clipboard.writeText(code);
+        }
+    </script>
 </footer>
