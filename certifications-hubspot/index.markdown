@@ -3,6 +3,13 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: Certifications Hub
 layout: page
+hs_region: eu1
+hs_portalId: 26711031
+forms:
+- name: Formulaire 1
+  id: 7d5bd735-1ff4-46a0-97b4-70e57a391da9
+- name: Formulaire 2
+  id: c09ed3ed-45b7-44e2-bbeb-456875e46d80
 ---
 
 
@@ -201,3 +208,58 @@ layout: page
 <!-- End: HubSpot Academy - Certification sur l'Intégration Salesforce Badge -->
 
 <hr style="margin:2em 0">
+
+
+{% for form in page.forms %}
+<h2>{{ form.name }}</h2>
+
+    <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+    <script>
+      hbspt.forms.create({
+        region: "{{ page.hs_region }}",
+        portalId: "{{ page.hs_portalId }}",
+        formId: "{{ form.id }}"
+      });
+    </script>
+  {: id="A{{ form.id }}"}
+  <button onclick="myFunction('{{ form.id }}')">Copy text</button>
+
+<script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    region: "{{ page.hs_region }}",
+    portalId: "{{ page.hs_portalId }}",
+    formId: "{{ form.id }}"
+  });
+</script>
+<hr style="margin:2em 0">
+{% endfor %}
+
+<script>
+// https://stackoverflow.com/questions/400212/how-do-i-copy-to-the-clipboard-in-javascript
+// https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard
+
+function myFunction(id) {
+  // Get the text field
+  var selector = "#A" + id + " > div > pre > code";
+  console.log(selector);
+  
+  var copyText = document.querySelector("#A" + id + " > div > pre > code");
+  console.log(copyText);
+
+  // Select the text field
+  var code = copyText.innerText;
+  console.log(code);
+
+  // Copy the text inside the text field
+  navigator.clipboard.writeText(code);
+
+  // Alert the copied text
+  alert("Copied the text: \n" + code);
+}
+
+  if (navigator && navigator.clipboard && navigator.clipboard.writeText)
+    return navigator.clipboard.writeText(str);
+  return Promise.reject('The Clipboard API is not available.');
+
+</script>
