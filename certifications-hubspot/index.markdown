@@ -242,20 +242,20 @@ forms:
 function myFunction(id) {
   // Get the text field
   var selector = "#A" + id + " > div > pre > code";
+  console.log('#1');
   console.log(selector);
   
   var copyText = document.querySelector("#A" + id + " > div > pre > code");
+  console.log('#2');
   console.log(copyText);
 
   // Select the text field
   var code = copyText.innerText;
+  console.log('#3');
   console.log(code);
 
   // Copy the text inside the text field
   navigator.clipboard.writeText(code);
-
-  // Alert the copied text
-  alert("Copied the text: \n" + code);
 }
 
 </script>
