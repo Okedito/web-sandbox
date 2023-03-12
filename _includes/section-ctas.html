@@ -1,0 +1,15 @@
+{% for cta in page.ctas %}
+<h2>{{ cta.name }}</h2>
+<button onclick="CopyToClipboard('{{ cta.occurence }}')">Copier le code</button>
+
+    <!-- Begin HubSpot Call-to-Action Code -->
+    {{ cta.script }}
+    <!-- End HubSpot Call-to-Action Code -->
+  {: id="A{{ cta.occurence }}"}
+
+<!-- Begin HubSpot Call-to-Action Code -->
+{{ cta.script }}
+<!-- End HubSpot Call-to-Action Code -->
+
+<hr style="margin:2em 0">
+{% endfor %}
