@@ -12,7 +12,7 @@ forms:
 - name: Formulaire Newsletter FR
   id: 9712940e-20c2-44c4-bc38-1c7603ceaf7e
   onFormReady:
-- name: Formulaire Neswsletter EN
+- name: Formulaire Newsletter EN
   id: 2ee93fc6-e7d1-4fba-88ca-876706770fc1
   onFormReady:
 - name: Formulaire Livret Expérience FR
