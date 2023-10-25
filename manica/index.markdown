@@ -14,6 +14,8 @@ ctas:
 forms:
 - name: Formulaire de contact principal
   id: c19e345f-c696-403b-b275-608a215e9f79
+- name: Test - Mindly Safeworking
+  id: b93885f4-9b31-4037-8c7e-46a4bc7ccf52
 #- name: Formulaire 3 - MQL
 #  id: d2daa079-e2b3-41a9-add3-419cb32d596c
 #- name: Formulaire 4 - SQL
@@ -21,6 +23,10 @@ forms:
 #- name: Formulaire 5 - Qualification / Thank-you page
 #  id: 4399e57c-8c7b-4847-97b3-a3136ea4f53d
 ---
+
+<style>
+#hsForm_c19e345f-c696-403b-b275-608a215e9f79 {background: red!important;}
+</style>
 
 {%- include section-introduction.html -%}
 
@@ -55,3 +61,14 @@ forms:
 <!-- Start of HubSpot Embed Code -->
 <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/{{ page.hs_portalId }}.js"></script>
 <!-- End of HubSpot Embed Code -->
+
+
+
+<script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    region: "eu1",
+    portalId: "24997955",
+    formId: "b93885f4-9b31-4037-8c7e-46a4bc7ccf52"
+  });
+</script>
