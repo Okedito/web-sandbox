@@ -11,6 +11,13 @@
         onFormReady: function($form) {
           var DOCUMENT = 'Nom du document téléchargeable';
           $('#hsForm_{{ form.id }} > div.hs_doc_request_form.hs-doc_request_form.hs-fieldtype-text.field.hs-form-field > div > input').val(DOCUMENT).change();
+        }{% endif %}{% if form.onFormSubmit %},
+        onFormSubmit: function($form) {
+          let MAIL =  $('input[name=email]')[0].value;
+        }{% endif %}{% if form.onFormSubmitted %},
+        onFormSubmitted: function($form) {  
+          var REDIRECT_URL = 'URL de redirection';
+          window.location.href = REDIRECT_URL + "?email=" + MAIL;
         }{% endif %}
       });
     </script>
@@ -25,6 +32,13 @@
     onFormReady: function($form) {
       var DOCUMENT = 'Nom du document téléchargeable';
       $('#hsForm_{{ form.id }} > div.hs_doc_request_form.hs-doc_request_form.hs-fieldtype-text.field.hs-form-field > div > input').val(DOCUMENT).change();
+      }{% endif %}{% if form.onFormSubmit %},
+    onFormSubmit: function($form) {
+      let MAIL =  $('input[name=email]')[0].value;
+      }{% endif %}{% if form.onFormSubmitted %},
+    onFormSubmitted: function($form) {  
+      var REDIRECT_URL = 'URL de redirection';
+      window.location.href = REDIRECT_URL + "?email=" + MAIL;
       }{% endif %}
   });
 </script>
