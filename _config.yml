@@ -22,7 +22,7 @@ title: Okédito web sandbox
 email: contact@okedito.com
 author: Okédito
 description: >- # this means to ignore newlines until "baseurl:"
-  Nous aidons les marques B2B et B2C à générer plus de revenus grâce au contenu premium et au marketing & sales automation. Avec du SENS.
+  Okédito est une agence de croissance digitale positionnée RevOps (Revenue Operations). Nous aidons les équipes marketing, vente et service client à synchroniser leurs efforts pour générer de nouveaux prospects, les signer plus vite et maximiser le CA dans la durée. Tout en optimisant la marge opérationnelle.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://web-sandbox.okedito.com/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb

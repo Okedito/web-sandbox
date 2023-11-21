@@ -2,6 +2,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: Cimalpes
 layout: page
+logo: yes
 hs_region: eu1
 hs_portalId: 139708350
 ctas:
