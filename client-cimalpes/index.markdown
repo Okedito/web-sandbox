@@ -15,31 +15,37 @@ forms:
   onFormReady:
   onFormSubmit:
   onFormSubmitted:
+  CustomMessage:
 - name: Formulaire Newsletter EN
   id: 2ee93fc6-e7d1-4fba-88ca-876706770fc1
   onFormReady:
   onFormSubmit:
   onFormSubmitted:
+  CustomMessage:
 - name: Formulaire Livret Expérience FR
   id: 951dfa9e-a879-4375-9e80-061b0aadd668
   onFormReady: yes
   onFormSubmit: yes
-  onFormSubmitted: yes
+  onFormSubmitted:
+  CustomMessage: yes
 - name: Formulaire Livret Expérience EN
   id: 6dc1ec6b-f123-4d3d-a1e1-07f1a7e78df0
   onFormReady: yes
   onFormSubmit: yes
-  onFormSubmitted: yes
+  onFormSubmitted:
+  CustomMessage: yes
 - name: Formulaire Brochure FR
   id: e7d70d74-fd1c-4097-a214-b1f1da737ad0
   onFormReady: yes
   onFormSubmit: yes
-  onFormSubmitted: yes
+  onFormSubmitted:
+  CustomMessage: yes
 - name: Formulaire Brochure EN
   id: 1a1b1e71-085d-459f-b21f-083ad4c40c0e
   onFormReady: yes
   onFormSubmit: yes
-  onFormSubmitted: yes
+  onFormSubmitted:
+  CustomMessage: yes
 ---
 
 {%- include section-introduction.html -%}

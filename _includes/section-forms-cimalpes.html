@@ -13,18 +13,21 @@
           $('#hsForm_{{ form.id }} > div.hs_doc_request_form.hs-doc_request_form.hs-fieldtype-text.field.hs-form-field > div > input').val(DOCUMENT).change();
         }{% endif %}{% if form.onFormSubmit %},
         onFormSubmit: function($form) {
-          let MAIL =  $('input[name=email]')[0].value;
-        }{% endif %}{% if form.onFormSubmitted %},
-        onFormSubmitted: function($form) {  
-          var REDIRECT_URL = 'URL de redirection';
-          window.location.href = REDIRECT_URL + "?email=" + MAIL;
+          let MAIL =  $("#email-1a1b1e71-085d-459f-b21f-083ad4c40c0e")[0].value;
         }{% endif %}
       });
+      {% if form.CustomMessage %}
+      window.addEventListener('message', event => {
+        if(event.data.type === 'hsFormCallback' && event.data.eventName === 'onFormSubmitted') {
+          document.querySelector(".submitted-message a").href += "?email="+ MAIL;
+        }
+      }); 
+      {% endif %}
     </script>
   {: id="A{{ form.id }}"}
 
 <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
-<script>
+<script>  
   hbspt.forms.create({
     region: "{{ page.hs_region }}",
     portalId: "{{ page.hs_portalId }}",
@@ -34,13 +37,16 @@
       $('#hsForm_{{ form.id }} > div.hs_doc_request_form.hs-doc_request_form.hs-fieldtype-text.field.hs-form-field > div > input').val(DOCUMENT).change();
       }{% endif %}{% if form.onFormSubmit %},
     onFormSubmit: function($form) {
-      let MAIL =  $('input[name=email]')[0].value;
-      }{% endif %}{% if form.onFormSubmitted %},
-    onFormSubmitted: function($form) {  
-      var REDIRECT_URL = 'URL de redirection';
-      window.location.href = REDIRECT_URL + "?email=" + MAIL;
-      }{% endif %}
+      let MAIL =  $("#email-1a1b1e71-085d-459f-b21f-083ad4c40c0e")[0].value;
+    }{% endif %}
   });
+  {% if form.CustomMessage %}
+  window.addEventListener('message', event => {
+    if(event.data.type === 'hsFormCallback' && event.data.eventName === 'onFormSubmitted') {
+      document.querySelector(".submitted-message a").href += "?email="+ MAIL;
+    }
+  }); 
+  {% endif %}
 </script>
 <hr style="margin:2em 0">
 {% endfor %}
