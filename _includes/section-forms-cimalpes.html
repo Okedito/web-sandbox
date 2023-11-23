@@ -14,15 +14,15 @@
         }{% endif %}{% if form.onFormSubmit %},
         onFormSubmit: function($form) {
           let MAIL =  $("#email-1a1b1e71-085d-459f-b21f-083ad4c40c0e")[0].value;
+        }{% endif %}{% if form.onFormSubmitted %},
+        onFormSubmitted: function($form){
+          window.addEventListener('message', event => {
+            if(event.data.type === 'hsFormCallback' && event.data.eventName === 'onFormSubmitted') {
+              document.querySelector(".submitted-message a").href += "?email="+ sessionStorage.getItem("mail");
+            }
+          });
         }{% endif %}
       });
-      {% if form.CustomMessage %}
-      window.addEventListener('message', event => {
-        if(event.data.type === 'hsFormCallback' && event.data.eventName === 'onFormSubmitted') {
-          document.querySelector(".submitted-message a").href += "?email="+ MAIL;
-        }
-      }); 
-      {% endif %}
     </script>
   {: id="A{{ form.id }}"}
 
@@ -38,15 +38,15 @@
       }{% endif %}{% if form.onFormSubmit %},
     onFormSubmit: function($form) {
       let MAIL =  $("#email-1a1b1e71-085d-459f-b21f-083ad4c40c0e")[0].value;
+    }{% endif %}{% if form.onFormSubmitted %},
+    onFormSubmitted: function($form){
+      window.addEventListener('message', event => {
+        if(event.data.type === 'hsFormCallback' && event.data.eventName === 'onFormSubmitted') {
+          document.querySelector(".submitted-message a").href += "?email="+ sessionStorage.getItem("mail");
+        }
+      });
     }{% endif %}
   });
-  {% if form.CustomMessage %}
-  window.addEventListener('message', event => {
-    if(event.data.type === 'hsFormCallback' && event.data.eventName === 'onFormSubmitted') {
-      document.querySelector(".submitted-message a").href += "?email="+ MAIL;
-    }
-  }); 
-  {% endif %}
 </script>
 <hr style="margin:2em 0">
 {% endfor %}
