@@ -10,8 +10,13 @@ ctas:
   occurence: first
   script:
 forms:
-- name:
-  id:
+- name: Support form - English
+  id: 6af8285d-1ab2-4815-b03f-ce97fde5d4bb
+  onFormReady:
+  onFormSubmit:
+  onFormSubmitted:
+- name: Support form - Français
+  id: 6945ba29c-238a-418c-b946-13a0eff1ad35
   onFormReady:
   onFormSubmit:
   onFormSubmitted:
@@ -21,4 +26,8 @@ forms:
 
 {% if page.hs_portalId %}
     {%- include section-tracking-code.html -%}
+{% endif %}
+
+{% if page.forms %}
+    {%- include section-forms-cimalpes.html -%}
 {% endif %}
