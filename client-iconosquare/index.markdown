@@ -16,7 +16,7 @@ forms:
   onFormSubmit:
   onFormSubmitted:
 - name: Support form - Français
-  id: 6945ba29c-238a-418c-b946-13a0eff1ad35
+  id: 945ba29c-238a-418c-b946-13a0eff1ad35
   onFormReady:
   onFormSubmit:
   onFormSubmitted:
