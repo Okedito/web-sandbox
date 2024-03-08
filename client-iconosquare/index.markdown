@@ -15,8 +15,18 @@ forms:
   onFormReady:
   onFormSubmit:
   onFormSubmitted:
-- name: Support form - Français
+- name: Support form - French
   id: 945ba29c-238a-418c-b946-13a0eff1ad35
+  onFormReady:
+  onFormSubmit:
+  onFormSubmitted:
+- name: Support form - German
+  id: 6d391dfc-02b8-4d74-b494-674b9ed826fc
+  onFormReady:
+  onFormSubmit:
+  onFormSubmitted:
+- name: Support form - Spanish
+  id: 29a37153-e609-4880-be3c-525d4ad2f99e
   onFormReady:
   onFormSubmit:
   onFormSubmitted:
