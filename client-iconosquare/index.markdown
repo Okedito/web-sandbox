@@ -30,6 +30,11 @@ forms:
   onFormReady:
   onFormSubmit:
   onFormSubmitted:
+- name: Form - Client directory application | EN
+  id: 78f60e5f-30d8-4537-ac13-18640e544e88
+  onFormReady:
+  onFormSubmit:
+  onFormSubmitted:
 ---
 
 {%- include section-introduction.html -%}
