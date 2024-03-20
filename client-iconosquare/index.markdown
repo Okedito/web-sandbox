@@ -35,6 +35,21 @@ forms:
   onFormReady:
   onFormSubmit:
   onFormSubmitted:
+- name: Form - Client directory application | DE
+  id: 3e8dd383-028c-4ce2-9ca1-bffd0359ce93
+  onFormReady:
+  onFormSubmit:
+  onFormSubmitted:
+- name: Form - Client directory application | FR
+  id: 714e80c9-f34f-4444-8a5d-efd21375c457
+  onFormReady:
+  onFormSubmit:
+  onFormSubmitted:
+- name: Form - Client directory application | ES
+  id: 92374513-0c38-4a3b-8939-d15996ae4950
+  onFormReady:
+  onFormSubmit:
+  onFormSubmitted:
 ---
 
 {%- include section-introduction.html -%}
