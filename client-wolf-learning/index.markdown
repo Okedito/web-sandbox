@@ -10,8 +10,13 @@ ctas:
   occurence: first
   script:
 forms:
-- name: Formulaire - Contact
+- name: Formulaire - Contact | EN
   id: d637367b-8d08-47af-b387-e5251c9b9084
+  onFormReady:
+  onFormSubmit:
+  onFormSubmitted:
+- name: Formulaire - Contact | FR
+  id: e7766694-93ef-4b85-9302-6bb1473b0462
   onFormReady:
   onFormSubmit:
   onFormSubmitted:
