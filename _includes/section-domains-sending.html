@@ -1,0 +1,40 @@
+<h2>Enregistrements DNS - Domaines d'envoi</h2>
+
+{% for dkim in page.sending_domains %}
+<p>Nom de domaine à configurer : {{ dkim.name }}</p>
+
+<h3>DKIM</h3>
+<table>
+    <tr>
+        <th>Type d'enregistrement</th>
+        <th>Hôte</th>
+        <th>Valeur</th>
+      </tr>
+    <tr>
+        <td>{{ dkim.dkim_main_type }}</td>
+        <td>{{ dkim.dkim_main_host }}</td>
+        <td>{{ dkim.dkim_main_value }}</td>
+    </tr>
+    <tr>
+        <td>{{ dkim.dkim_secondary_type }}</td>
+        <td>{{ dkim.dkim_secondary_host }}</td>
+        <td>{{ dkim.dkim_secondary_value }}</td>
+    </tr>
+</table>
+
+<h3>SPF</h3>
+<p>Valeur à <strong>ajouter</strong> aux configurations existantess.</p>
+<table>
+    <tr>
+        <th>Type d'enregistrement</th>
+        <th>Hôte</th>
+        <th>Valeur</th>
+    </tr>
+    <tr>
+        <td>{{ dkim.spf_type }}</td>
+        <td>{{ dkim.spf_host }}</td>
+        <td>{{ dkim.spf_value }}</td>
+    </tr>
+    </table>
+{% endfor %}
+<hr style="margin:2em 0">

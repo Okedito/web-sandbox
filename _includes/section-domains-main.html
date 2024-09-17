@@ -1,0 +1,20 @@
+<h2>Enregistrements DNS - Domaines principaux</h2>
+
+<p>Nom de domaine à configurer : {{ page.brand_domain }}</p>
+
+<table>
+    <tr>
+        <th>Type d'enregistrement</th>
+        <th>Hôte</th>
+        <th>Valeur</th>
+      </tr>
+
+    {% for record in page.main_domains %}
+    <tr>
+        <td>{{ record.type }}</td>
+        <td>{{ record.host }}</td>
+        <td>{{ record.value }}</td>
+    </tr>
+{% endfor %}
+</table>
+<hr style="margin:2em 0">
