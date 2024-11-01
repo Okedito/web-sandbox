@@ -23,7 +23,7 @@
 </table>
 
 <h3>SPF</h3>
-<p>Valeur à <strong>ajouter</strong> aux configurations existantess.</p>
+<p>Valeur à <strong>ajouter</strong> aux configurations existantes.</p>
 <table>
     <tr>
         <th>Type d'enregistrement</th>
@@ -35,6 +35,20 @@
         <td>{{ dkim.spf_host }}</td>
         <td>{{ dkim.spf_value }}</td>
     </tr>
-    </table>
+</table>
+<h3>DMARC</h3>
+<p>Policy minimale requise pour cet enregistrement.</p>
+<table>
+    <tr>
+        <th>Type d'enregistrement</th>
+        <th>Hôte</th>
+        <th>Valeur</th>
+    </tr>
+    <tr>
+        <td>{{ dkim.dmarc_type }}</td>
+        <td>{{ dkim.dmarc_host }}</td>
+        <td>{{ dkim.dmarc_value }}</td>
+    </tr>
+</table>
 {% endfor %}
 <hr style="margin:2em 0">
