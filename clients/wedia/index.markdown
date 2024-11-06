@@ -27,6 +27,9 @@ sending_domains:
   spf_type: TXT
   spf_host: "@"
   spf_value: include:144852889.spf06.hubspotemail.net
+  dmarc_type: TXT
+  dmarc_host: _dmarc
+  dmarc_value: v=DMARC1; p=none;
 #ctas:
 #- name:
 #  occurence: first
