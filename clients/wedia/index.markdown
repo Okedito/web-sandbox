@@ -31,9 +31,19 @@ sending_domains:
 #- name:
 #  occurence: first
 #  script:
-#forms:
-#- name: Formulaire Contact - SAP
-#  id: 89ffb57c-af22-4b9f-8b74-853bdf8bd911
+forms:
+- name: Form Contact | EN
+  id: f50b0242-243f-4852-99f0-34ca66ac968f
+- name: Form Demo | EN
+  id: 948a1663-ad7b-408d-8372-be12f98b925a
+- name: Form Download - Case study / Ebook / RFP / Video | EN
+  id: 3622bd56-5703-4ee5-9d20-3f82c218df68
+- name: Form Partners | EN
+  id: 4fe7996e-0f01-4bbb-9eea-3dcb8770e568
+- name: Form Register Event / Webinar | EN
+  id: a729e1a7-261d-49ee-86fd-27a8178ab77f
+- name: Form Subscribe Newsletter | EN
+  id: 52d87dd1-6a0f-4df8-937d-41ebf93066ca
 #  onFormReady:
 #  onFormSubmit:
 #  onFormSubmitted:
