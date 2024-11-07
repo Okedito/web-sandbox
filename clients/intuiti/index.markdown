@@ -39,7 +39,7 @@ forms:
   id: 6ce224ba-0259-44bc-ab0d-9d8319ac66f2
   onFormReady: "function($form) {
       var DOCUMENT = 'Nom du document téléchargeable';
-      $('#hsForm_6ce224ba-0259-44bc-ab0d-9d8319ac66f2 > div.hs_doc_request_form.hs-doc_request_form.hs-fieldtype-text.field.hs-form-field > div > input').val(DOCUMENT).change();
+      $('#hsForm_6ce224ba-0259-44bc-ab0d-9d8319ac66f2 > fieldset:nth-child(4) > div > div > input').val(DOCUMENT).change();
       }"
   onFormSubmit:
   onFormSubmitted:
