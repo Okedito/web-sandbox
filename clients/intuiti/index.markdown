@@ -41,16 +41,8 @@ forms:
       var DOCUMENT = 'Nom du document téléchargeable';
       $('#hsForm_6ce224ba-0259-44bc-ab0d-9d8319ac66f2 > div.hs_doc_request_form.hs-doc_request_form.hs-fieldtype-text.field.hs-form-field > div > input').val(DOCUMENT).change();
       }"
-  onFormSubmit: "function($form) {
-      sessionStorage.setItem(\"mail\", $(\"#email-6ce224ba-0259-44bc-ab0d-9d8319ac66f2\")[0].value);
-    }"
-  onFormSubmitted: "function($form) {
-      window.addEventListener('message', event => {
-        if(event.data.type === 'hsFormCallback' && event.data.eventName === 'onFormSubmitted') {
-          document.querySelector(\".submitted-message a\").href += \"?email=\"+ sessionStorage.getItem(\"mail\");
-        }
-      });
-    }"
+  onFormSubmit:
+  onFormSubmitted:
 - name: Intuiti | Demande de contact
   id: a7f4b350-566a-4308-920b-1145553e1ec5
 - name: Intuiti | Inscription Decriiipt

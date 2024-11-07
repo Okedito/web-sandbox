@@ -42,19 +42,11 @@ forms:
 - name: Form Download - Case study / Ebook / RFP / Video | EN
   id: 3622bd56-5703-4ee5-9d20-3f82c218df68
   onFormReady: "function($form) {
-      var DOCUMENT = 'Nom du document téléchargeable';
-      $('#hsForm_3622bd56-5703-4ee5-9d20-3f82c218df68 > div.hs_doc_request_form.hs-doc_request_form.hs-fieldtype-text.field.hs-form-field > div > input').val(DOCUMENT).change();
-      }"
-  onFormSubmit: "function($form) {
-      sessionStorage.setItem(\"mail\", $(\"#email-3622bd56-5703-4ee5-9d20-3f82c218df68\")[0].value);
-    }"
-  onFormSubmitted: "function($form) {
-      window.addEventListener('message', event => {
-        if(event.data.type === 'hsFormCallback' && event.data.eventName === 'onFormSubmitted') {
-          document.querySelector(\".submitted-message a\").href += \"?email=\"+ sessionStorage.getItem(\"mail\");
-        }
-      });
-    }"
+      var DOCUMENT = 'Volkswagen EN/FR/DE';
+      $('#hsForm_3622bd56-5703-4ee5-9d20-3f82c218df68 > fieldset:nth-child(5) > div > div > input').val(DOCUMENT).change();
+      }"     
+  onFormSubmit:
+  onFormSubmitted:
 - name: Form Partners | EN
   id: 4fe7996e-0f01-4bbb-9eea-3dcb8770e568
 - name: Form Register Event / Webinar | EN

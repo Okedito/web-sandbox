@@ -20,7 +20,10 @@
   hbspt.forms.create({
     region: "{{ page.hs_region }}",
     portalId: "{{ page.hs_portalId }}",
-    formId: "{{ form.id }}"
+    formId: "{{ form.id }}"{% if form.onFormReady %},
+    onFormReady: {{ form.onFormReady }}{% endif %}{% if form.onFormSubmit %},
+    onFormSubmit: {{ form.onFormSubmit }}{% endif %}{% if form.onFormSubmitted %},
+    onFormSubmitted: {{ form.onFormSubmitted }}{% endif %}
   });
 </script>
 <hr style="margin:2em 0">
