@@ -42,7 +42,7 @@ forms:
       $('#hsForm_6ce224ba-0259-44bc-ab0d-9d8319ac66f2 > div.hs_doc_request_form.hs-doc_request_form.hs-fieldtype-text.field.hs-form-field > div > input').val(DOCUMENT).change();
       }"
   onFormSubmit: "function($form) {
-      sessionStorage.setItem(\"mail\", $(\"#email-1a1b1e71-085d-459f-b21f-083ad4c40c0e\")[0].value);
+      sessionStorage.setItem(\"mail\", $(\"#email-6ce224ba-0259-44bc-ab0d-9d8319ac66f2\")[0].value);
     }"
   onFormSubmitted: "function($form) {
       window.addEventListener('message', event => {
