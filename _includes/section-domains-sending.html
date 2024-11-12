@@ -1,9 +1,9 @@
 <h2>Enregistrements DNS - Domaines d'envoi</h2>
 
 {% for dkim in page.sending_domains %}
-<p>Nom de domaine à configurer : {{ dkim.name }}</p>
+<h3>Nom de domaine à configurer : {{ dkim.name }}</h3>
 
-<h3>DKIM</h3>
+<h4>DKIM</h4>
 <table>
     <tr>
         <th>Type d'enregistrement</th>
@@ -22,7 +22,7 @@
     </tr>
 </table>
 
-<h3>SPF</h3>
+<h4>SPF</h4>
 <p>Valeur à <strong>ajouter</strong> aux configurations existantes.</p>
 <table>
     <tr>
@@ -36,7 +36,7 @@
         <td>{{ dkim.spf_value }}</td>
     </tr>
 </table>
-<h3>DMARC</h3>
+<h4>DMARC</h4>
 <p>Policy minimale requise pour cet enregistrement.</p>
 <table>
     <tr>
