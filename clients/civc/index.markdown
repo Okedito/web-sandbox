@@ -62,6 +62,20 @@ forms:
 #  onFormReady:
 #  onFormSubmit:
 #  onFormSubmitted:
+- name: Formulaire Inscription web | FR
+  id: 90103f7a-ebae-4dbd-b3bd-13343e88851a
+  onFormSubmit: "function($form) {
+      sessionStorage.setItem(\"mail\", $(\"#email-90103f7a-ebae-4dbd-b3bd-13343e88851a\")[0].value);
+      sessionStorage.setItem(\"firstname\", $(\"#firstname-90103f7a-ebae-4dbd-b3bd-13343e88851a\")[0].value);
+      sessionStorage.setItem(\"lastname\", $(\"#lastname-90103f7a-ebae-4dbd-b3bd-13343e88851a\")[0].value);
+    }"
+  onFormSubmitted: "function($form) {
+      window.addEventListener('message', event => {
+        if(event.data.type === 'hsFormCallback' && event.data.eventName === 'onFormSubmitted') {
+          document.querySelector(\".submitted-message a\").href += \"?email=\" + sessionStorage.getItem(\"mail\") + \"&firstname=\" + sessionStorage.getItem(\"firstname\") + \"&lastname=\" + sessionStorage.getItem(\"lastname\");
+        }
+      });
+    }"
 ---
 
 {%- include section-introduction.html -%}
@@ -86,5 +100,5 @@ forms:
 {% endcomment %}
 
 {% if page.forms %}
-    {%- include section-forms-cimalpes.html -%}
+    {%- include section-forms-v2.html -%}
 {% endif %}
