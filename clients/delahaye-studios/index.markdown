@@ -56,7 +56,6 @@ sending_domains:
     {%- include section-domains-main.html -%}
 {% endif %}
 
-
 {% if page.sending_domains %}
     {%- include section-domains-sending.html -%}
 {% endif %}
