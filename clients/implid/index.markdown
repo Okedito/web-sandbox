@@ -11,6 +11,18 @@ main_domains:
   type: CNAME
   host: supportclients
   value: 145537483.group0.sites.hscoscdn-eu1.net
+- name: Base de connaissances (Okédito)
+  type: CNAME
+  host: okedito.supportclients
+  value: 145537483.group0.sites.hscoscdn-eu1.net
+- name: Base de connaissances (Implid)
+  type: CNAME
+  host: implid.supportclients
+  value: 145537483.group0.sites.hscoscdn-eu1.net
+- name: Base de connaissances (ProBTP)
+  type: CNAME
+  host: probtp.supportclients
+  value: 145537483.group0.sites.hscoscdn-eu1.net
 #- name: Pages de destination	
 #  type: CNAME
 #  host: À confirmer
