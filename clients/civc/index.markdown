@@ -68,13 +68,17 @@ forms:
       localStorage.setItem('mail', $(\"#email-90103f7a-ebae-4dbd-b3bd-13343e88851a\")[0].value);
       localStorage.setItem('firstname', $(\"#firstname-90103f7a-ebae-4dbd-b3bd-13343e88851a\")[0].value);
       localStorage.setItem('lastname', $(\"#lastname-90103f7a-ebae-4dbd-b3bd-13343e88851a\")[0].value);
+      localStorage.setItem('country', $(\"#pays-90103f7a-ebae-4dbd-b3bd-13343e88851a\")[0].value);
+      localStorage.setItem('pro_status', $(\"#type_de_contact-90103f7a-ebae-4dbd-b3bd-13343e88851a\")[0].value);
     }"
   onFormSubmitted: "function($form) {
       var REDIRECT_URL = 'https://www.okedito.com';
       window.location.href = REDIRECT_URL
         + \"?email=\" + encodeURIComponent(localStorage.getItem(\"mail\"))
         + \"&firstname=\" + encodeURIComponent(localStorage.getItem(\"firstname\"))
-        + \"&lastname=\" + encodeURIComponent(localStorage.getItem(\"lastname\"));
+        + \"&lastname=\" + encodeURIComponent(localStorage.getItem(\"lastname\"))
+        + \"&country=\" + encodeURIComponent(localStorage.getItem(\"country\"))
+        + \"&pro_status=\" + encodeURIComponent(localStorage.getItem(\"pro_status\"));
     }"
 ---
 
