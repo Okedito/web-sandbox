@@ -43,7 +43,7 @@ forms:
   id: 3622bd56-5703-4ee5-9d20-3f82c218df68
   onFormReady: "function($form) {
       var DOCUMENT = 'Volkswagen EN/FR/DE';
-      $('#hsForm_3622bd56-5703-4ee5-9d20-3f82c218df68 > fieldset:nth-child(5) > div > div > input').val(DOCUMENT).change();
+      $('[name=\"download_last_request\"]').val(DOCUMENT).change();
       }"     
   onFormSubmit:
   onFormSubmitted:
