@@ -10,11 +10,11 @@ main_domains:
 - name: Pages de destination	
   type: CNAME
   host: go
-  value: 144852889.sites.hscoscdn-eu1.net
+  value: 144852889.group0.sites.hscoscdn-eu1.net
 - name: E-mail marketing (version web)
   type: CNAME
   host: email
-  value: 144852889.sites.hscoscdn-eu1.net
+  value: 144852889.group0.sites.hscoscdn-eu1.net
 sending_domains:
 - domain:
   name: wedia-group.com
