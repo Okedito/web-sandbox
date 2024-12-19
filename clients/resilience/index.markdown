@@ -34,23 +34,29 @@ brand_domain: resilience.care
 #  occurence: first
 #  script:
 forms:
-- name: Formulaire - Démo
-  id: d8f78a21-6e0b-4eff-9a68-cddbec7787e4
+- name: Formulaire - Newsletter
+  id: 1695dea6-174f-4ac3-9676-613c2b88c2bb
   onFormReady: 
   onFormSubmit:
   onFormSubmitted:
 - name: Formulaire - Guides, livres blancs et posters
   id: b2e2306a-e9f2-4d6c-aca7-bde4fa769df2
-  onFormReady: 
+  onFormReady: "function($form) {
+      var DOCUMENT = 'Document name';
+      $('[name=\"latest_request_for_documentation\"]').val(DOCUMENT).change();
+      }"
   onFormSubmit:
   onFormSubmitted:
+- name: Formulaire - Démo
+  id: d8f78a21-6e0b-4eff-9a68-cddbec7787e4
+  onFormReady: 
+  onFormSubmit:
+  onFormSubmitted: "function($form) {
+      var REDIRECT_URL = 'https://meet.okedito.com/meetings/daniele-lodola/30-minutes';
+      window.location.href = REDIRECT_URL;
+    }"
 - name: Formulaire - Landing Page
   id: fe8dc68b-81b2-4bfd-afd6-b2ebf9398aac
-  onFormReady: 
-  onFormSubmit:
-  onFormSubmitted:
-- name: Formulaire - Newsletter
-  id: 1695dea6-174f-4ac3-9676-613c2b88c2bb
   onFormReady: 
   onFormSubmit:
   onFormSubmitted:
