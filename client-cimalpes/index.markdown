@@ -57,3 +57,35 @@ forms:
 {% if page.forms %}
     {%- include section-forms-cimalpes.html -%}
 {% endif %}
+
+<h2>Formulaire Plan | FR</h2>
+<button onclick="CopyToClipboard('bc21f15a-117b-4106-a0b2-4bc43be772c9')">Copier le code</button>
+
+    <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+    <script>
+      hbspt.forms.create({
+        portalId: "139708350",
+        formId: "bc21f15a-117b-4106-a0b2-4bc43be772c9",
+        onFormReady: function($form) {
+          console.log(window.location.href);
+        },
+        onFormSubmit function($form) {
+          $('[name="doc_request_form"]').val(window.location.href).change();
+        }
+      });
+    </script>
+  {: id="A{{ form.id }}"}
+
+<script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+  portalId: "139708350",
+  formId: "bc21f15a-117b-4106-a0b2-4bc43be772c9",
+  onFormReady: function($form) {
+    console.log(window.location.href);
+  },
+  onFormSubmit: function($form) {
+    $('[name="doc_request_form"]').val(window.location.href).change();
+  }
+  });
+</script>
