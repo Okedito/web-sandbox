@@ -1,0 +1,23 @@
+<h2>Enregistrements DNS - Domaines secondaires</h2>
+
+<h3>Nom de domaine à configurer : {{ page.brand_domain }}</h3>
+
+<table>
+    <tr>
+        <th>Type d'enregistrement</th>
+        <th>Hôte</th>
+        <th>Valeur</th>
+      </tr>
+
+    {% for record in page.secondary_domains %}
+    <tr>
+        <td colspan="3">{{ record.name }}</td>
+    </tr>
+    <tr>
+        <td>{{ record.type }}</td>
+        <td>{{ record.host }}</td>
+        <td>{{ record.value }}</td>
+    </tr>
+{% endfor %}
+</table>
+<hr style="margin:2em 0">
