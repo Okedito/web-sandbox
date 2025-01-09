@@ -70,19 +70,46 @@ sending_domains:
   dmarc_type: TXT
   dmarc_host: _dmarc
   dmarc_value: v=DMARC1; p=none;
-
-
-
 #ctas:
 #- name:
 #  occurence: first
 #  script:
-#forms:
-#- name:
-#  id: 
-#  onFormReady: 
-#  onFormSubmit:
-#  onFormSubmitted:
+forms:
+- name: Global Solutions Industrie - Formulaire de Contact
+  id: b6a0d062-e09a-4dc0-8c94-eb051ef73fbd
+  onFormReady: 
+  onFormSubmit:
+  onFormSubmitted:
+- name: Global Foods Solution - Formulaire de Contact
+  id: aa9fa43e-1ed2-40d8-a99b-625792504970
+  onFormReady: 
+  onFormSubmit:
+  onFormSubmitted:
+- name: Foods Company - Formulaire de Contact
+  id: d6ee1166-9fe6-4142-8fbd-1b4cc0ca8ebe
+  onFormReady: 
+  onFormSubmit:
+  onFormSubmitted:
+- name: Global Foods Group - Formulaire de Contact
+  id: 3176f16d-694d-439e-aadc-193690def1ed
+  onFormReady: 
+  onFormSubmit:
+  onFormSubmitted:
+- name: Formulaire Inscription Newsletter
+  id: 91087aa0-9583-4c6d-9384-61e1604f8b5e
+  onFormReady: 
+  onFormSubmit:
+  onFormSubmitted:
+- name: Formulaire de surqualification
+  id: 8dc4ce2a-4063-4c2e-ad8c-b1d9184de66f
+  onFormReady: 
+  onFormSubmit:
+  onFormSubmitted:
+- name: Formulaire Gated content - Ressource
+  id: ece96d68-361c-48f8-b24d-cfff4a334afe
+  onFormReady: 
+  onFormSubmit:
+  onFormSubmitted:
 ---
 
 {%- include section-introduction.html -%}
