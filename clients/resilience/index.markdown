@@ -56,7 +56,7 @@ forms:
       window.location.href = REDIRECT_URL;
     }"
 - name: Formulaire - Landing Page
-  comment: Code à utiliser pour l'insertion du formulaire sur des pages hors HubSpot. Pour l'insertion de ce formulaire sur une landing page HubSpot, utiliser le module natif adapté. La variable "REDIRECT_URL" est à modifier en fonction de l'url de la page de remerciements choisie (page sur laquelle le formulaire de surqualification sera insérée).
+  comment: Code à utiliser pour l'insertion du formulaire sur des pages hors HubSpot. Pour l'insertion de ce formulaire sur une landing page HubSpot, utiliser le module natif adapté. La variable "THANK-YOU-PAGE_URL" est à modifier en fonction de l'url de la page de remerciements choisie (page sur laquelle le formulaire de surqualification sera insérée).
   id: fe8dc68b-81b2-4bfd-afd6-b2ebf9398aac
   onFormReady: 
   onFormSubmit:
