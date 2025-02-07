@@ -61,9 +61,9 @@ forms:
   onFormReady: 
   onFormSubmit:
   onFormSubmitted: "function($form, data) {
-    var REDIRECT_URL = 'https://www.resilience.care/';
+    var THANK-YOU-PAGE_URL = 'https://www.resilience.care/';
     let submission = data.submissionValues; 
-    window.location.href = REDIRECT_URL + \"?email=\" + encodeURIComponent(submission.email);
+    window.location.href = THANK-YOU-PAGE_URL + \"?email=\" + encodeURIComponent(submission.email);
     }"
 - name: Formulaire - Thank You Page
   id: 222e3ab3-4eb0-4689-a2b0-48829358967a
