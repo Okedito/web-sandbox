@@ -95,18 +95,31 @@ forms:
   onFormReady: 
   onFormSubmit:
   onFormSubmitted:
-- name: Formulaire Inscription Newsletter
+- name: Global Solutions Industrie - Newsletter
   id: 91087aa0-9583-4c6d-9384-61e1604f8b5e
   onFormReady: 
   onFormSubmit:
   onFormSubmitted:
-- name: Formulaire de surqualification
-  id: 8dc4ce2a-4063-4c2e-ad8c-b1d9184de66f
+- name: Global Foods Solution - Newsletter
+  id: 869bc8a5-b5dd-47af-bd0e-89e04b3297ba
+  onFormReady: 
+  onFormSubmit:
+  onFormSubmitted:
+- name: Foods Company - Newsletter
+  id: 8280aba6-d3e8-4416-9307-ba665227246e
   onFormReady: 
   onFormSubmit:
   onFormSubmitted:
 - name: Formulaire Gated content - Ressource
   id: ece96d68-361c-48f8-b24d-cfff4a334afe
+  onFormReady: "function($form) {
+      var DOCUMENT = 'Document name';
+      $('[name=\"latest_request_for_documentation\"]').val(DOCUMENT).change();
+      }"
+  onFormSubmit:
+  onFormSubmitted:
+- name: Formulaire de surqualification
+  id: 8dc4ce2a-4063-4c2e-ad8c-b1d9184de66f
   onFormReady: 
   onFormSubmit:
   onFormSubmitted:
