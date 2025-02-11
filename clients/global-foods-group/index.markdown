@@ -118,6 +118,16 @@ forms:
       }"
   onFormSubmit:
   onFormSubmitted:
+- name: Formulaire - Landing Page
+  comment: Code à utiliser pour l'insertion du formulaire sur des pages hors HubSpot. Pour l'insertion de ce formulaire sur une landing page HubSpot, utiliser le module natif adapté. La variable "THANK_YOU_PAGE_URL" est à modifier en fonction de l'url de la page de remerciements choisie (page sur laquelle le formulaire de surqualification sera insérée).
+  id: 9be2577d-ff4f-4557-9dd6-190bf67f10e1
+  onFormReady: 
+  onFormSubmit:
+  onFormSubmitted: "function($form, data) {
+    var THANK_YOU_PAGE_URL = 'https://gf-group.fr/';
+    let submission = data.submissionValues; 
+    window.location.href = THANK_YOU_PAGE_URL + \"?email=\" + encodeURIComponent(submission.email);
+    }"
 - name: Formulaire de surqualification
   id: 8dc4ce2a-4063-4c2e-ad8c-b1d9184de66f
   onFormReady: 
