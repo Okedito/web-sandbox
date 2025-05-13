@@ -41,18 +41,22 @@ forms:
   onFormSubmitted:
 - name: Formulaire Gated Content
   id: 58dce789-e226-4380-b2e2-e5395321d006
-  #onFormReady: "function($form) {
-  #    var DOCUMENT = 'Document name';
-  #    $('[name=\"latest_request_for_documentation\"]').val(DOCUMENT).change();
-  #    }"
+  onFormReady: "function($form) {
+      var DOCUMENT = 'Nom du document';
+      $('[name=\"derniere_demande_de_documentation\"]').val(DOCUMENT).change();
+      }"
   onFormSubmit:
   onFormSubmitted:
 - name: Formulaire Landing Page
-  #comment: Code à utiliser pour l'insertion du formulaire sur des pages hors HubSpot. Pour l'insertion de ce formulaire sur une landing page HubSpot, utiliser le module natif adapté. La variable "THANK_YOU_PAGE_URL" est à modifier en fonction de l'url de la page de remerciements choisie (page sur laquelle le formulaire de surqualification sera insérée).
+  comment: Code à utiliser pour l'insertion du formulaire sur des pages hors HubSpot. Pour l'insertion de ce formulaire sur une landing page HubSpot, utiliser le module natif adapté. La variable "THANK_YOU_PAGE_URL" est à modifier en fonction de l'url de la page de remerciements choisie (page sur laquelle le formulaire de surqualification sera insérée).
   id: ea549c26-75c6-445d-bed4-469851b463bf
   onFormReady: 
   onFormSubmit:
-  onFormSubmitted:
+  onFormSubmitted: "function($form, data) {
+    var THANK_YOU_PAGE_URL = 'https://danialu.fr/';
+    let submission = data.submissionValues; 
+    window.location.href = THANK_YOU_PAGE_URL + \"?email=\" + encodeURIComponent(submission.email);
+    }"
 - name: Formulaire Thank You Page
   id: c58e9873-40b9-4789-bff2-e93199423dc9
   onFormReady: 
