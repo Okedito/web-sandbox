@@ -35,31 +35,31 @@ sending_domains:
 #  script:
 forms:
 - name: Formulaire contact - demande de rdv
-  id: b0029179-5a9f-4776-b027-dd2ecc7abc1b
+  id: e5ea87d6-9d98-493a-b5fa-ac625a025942
   onFormReady: 
   onFormSubmit:
   onFormSubmitted:
 - name: Formulaire Gated Content
-  id: 51f12e37-c298-4d9e-a121-64ef0be6960f
+  id: 58dce789-e226-4380-b2e2-e5395321d006
   #onFormReady: "function($form) {
   #    var DOCUMENT = 'Document name';
   #    $('[name=\"latest_request_for_documentation\"]').val(DOCUMENT).change();
   #    }"
   onFormSubmit:
   onFormSubmitted:
-- name: Formulaire Landing Page (progressif)
+- name: Formulaire Landing Page
   #comment: Code à utiliser pour l'insertion du formulaire sur des pages hors HubSpot. Pour l'insertion de ce formulaire sur une landing page HubSpot, utiliser le module natif adapté. La variable "THANK_YOU_PAGE_URL" est à modifier en fonction de l'url de la page de remerciements choisie (page sur laquelle le formulaire de surqualification sera insérée).
   id: ea549c26-75c6-445d-bed4-469851b463bf
   onFormReady: 
   onFormSubmit:
   onFormSubmitted:
-- name: Formulaire Thank You Page (progressif)
+- name: Formulaire Thank You Page
   id: c58e9873-40b9-4789-bff2-e93199423dc9
   onFormReady: 
   onFormSubmit:
   onFormSubmitted:
 - name: Formulaire Newsletter
-  id: 8d016ae3-9521-4611-8b12-f380f2ed5fdc
+  id: 20d28a87-02f1-48a9-9b41-cbdd62c4387d
   onFormReady: 
   onFormSubmit:
   onFormSubmitted:
