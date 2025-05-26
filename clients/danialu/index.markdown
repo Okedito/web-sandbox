@@ -95,7 +95,6 @@ forms:
   onFormSubmit:
   onFormSubmitted:
 ---
-
 {%- include section-introduction.html -%}
 
 {% if page.hs_portalId %}
