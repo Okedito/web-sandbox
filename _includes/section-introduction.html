@@ -1,3 +1,18 @@
+{% if page.language == "en" %}
+<h2>Foreword</h2>
+
+<p>This page summarizes various elements and tools made available from the {{ page.title | escape }} HubSpot account. The list of elements may be updated as the project progresses. These elements were designed and implemented as part of the HubSpot deployment support provided by Okédito, and in line with the strategic acquisition and conversion goals validated with the client.</p>
+
+<p>Forms (excluding the appointment scheduling form, if used) are simple HTML forms: formatting will be applied using CSS styles on the front end, within the chosen technical context.</p>
+
+[HubSpot's documentation provides more information on this topic.](https://knowledge.hubspot.com/forms/how-can-i-share-a-hubspot-form-if-im-using-an-external-site){:target="_blank"}
+
+
+<p>Integrating a form is done by simply pasting the provided code into the div where the form should appear.</p>
+
+<p><i>* Note regarding privacy: all elements presented here are intended to be integrated on publicly accessible websites and do not therefore constitute sensitive data.</i></p>
+
+{% else %}
 <h2>Préambule</h2>
 
 <p>Cette page récapitule différents éléments et outils rendus disponibles depuis le compte HubSpot de {{ page.title | escape }}. 
@@ -16,5 +31,6 @@
 
 <p><i>* Note regardant la confidentialité : tous les éléments présentés ici ont pour vocation à être 
     intégrés en front-end, et ne constituent donc pas des données sensibles.</i></p>
+{% endif %}
 
 <hr style="margin:2em 0">

@@ -3,7 +3,7 @@
 {% if form.comment %}
 <p><i>{{ form.comment }}</i></p>
 {% endif %}
-<button onclick="CopyToClipboard('{{ form.id }}')">Copier le code</button>
+<button onclick="CopyToClipboard('{{ form.id }}')">{% if page.language == "en" %}Copy code{% else %}Copier le code{% endif %}</button>
 
     <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
     <script>

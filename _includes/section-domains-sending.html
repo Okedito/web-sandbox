@@ -1,3 +1,58 @@
+{% if page.language == "en" %}
+<h2>DNS records - Sending domains</h2>
+
+{% for dkim in page.sending_domains %}
+<h3>Domain to be configured : {{ dkim.name }}</h3>
+
+<h4>DKIM</h4>
+<table>
+    <tr>
+        <th>Record type</th>
+        <th>Host</th>
+        <th>Value</th>
+      </tr>
+    <tr>
+        <td>{{ dkim.dkim_main_type }}</td>
+        <td>{{ dkim.dkim_main_host }}</td>
+        <td>{{ dkim.dkim_main_value }}</td>
+    </tr>
+    <tr>
+        <td>{{ dkim.dkim_secondary_type }}</td>
+        <td>{{ dkim.dkim_secondary_host }}</td>
+        <td>{{ dkim.dkim_secondary_value }}</td>
+    </tr>
+</table>
+
+<h4>SPF</h4>
+<p>Value to be <strong>added</strong> to existing record.</p>
+<table>
+    <tr>
+        <th>Record type</th>
+        <th>Host</th>
+        <th>Value</th>
+    </tr>
+    <tr>
+        <td>{{ dkim.spf_type }}</td>
+        <td>{{ dkim.spf_host }}</td>
+        <td>{{ dkim.spf_value }}</td>
+    </tr>
+</table>
+<h4>DMARC</h4>
+<p>Minimal required policy.</p>
+<table>
+    <tr>
+        <th>Record type</th>
+        <th>Host</th>
+        <th>Value</th>
+    </tr>
+    <tr>
+        <td>{{ dkim.dmarc_type }}</td>
+        <td>{{ dkim.dmarc_host }}</td>
+        <td>{{ dkim.dmarc_value }}</td>
+    </tr>
+</table>
+{% endfor %}
+{% else %}
 <h2>Enregistrements DNS - Domaines d'envoi</h2>
 
 {% for dkim in page.sending_domains %}
@@ -51,4 +106,5 @@
     </tr>
 </table>
 {% endfor %}
+{% endif %}
 <hr style="margin:2em 0">

@@ -1,4 +1,32 @@
+{% if page.language == "en" %}
+<h2>DNS records - Main domains</h2>
+
+[HubSpot's documentation provides more information on this topic.](https://knowledge.hubspot.com/domains-and-urls/update-your-dns-records){:target="_blank"}
+
+<h3>Domain name to be configured : {{ page.brand_domain }}</h3>
+
+<table>
+    <tr>
+        <th>Record type</th>
+        <th>Host</th>
+        <th>Value</th>
+      </tr>
+
+    {% for record in page.main_domains %}
+    <tr>
+        <td colspan="3">{{ record.name }}</td>
+    </tr>
+    <tr>
+        <td>{{ record.type }}</td>
+        <td>{{ record.host }}</td>
+        <td>{{ record.value }}</td>
+    </tr>
+{% endfor %}
+</table>
+{% else %}
 <h2>Enregistrements DNS - Domaines principaux</h2>
+
+[La documentation de HubSpot donne plus d'informations sur ce sujet.](https://knowledge.hubspot.com/fr/domains-and-urls/update-your-dns-records){:target="_blank"}
 
 <h3>Nom de domaine à configurer : {{ page.brand_domain }}</h3>
 
@@ -20,4 +48,6 @@
     </tr>
 {% endfor %}
 </table>
+{% endif%}
+
 <hr style="margin:2em 0">
