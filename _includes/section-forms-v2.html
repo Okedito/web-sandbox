@@ -1,5 +1,26 @@
+{% if page.language == "en" %}
+  <h2>Forms</h2>
+
+  <p>Forms (excluding the appointment scheduling form, if used) are simple HTML forms: formatting will be applied using CSS styles on the front end, within the chosen technical context (available for Markerting Hub Pro and above).</p>
+
+  [HubSpot's documentation provides more information on this topic.](https://knowledge.hubspot.com/forms/how-can-i-share-a-hubspot-form-if-im-using-an-external-site){:target="_blank"}
+
+  <p>Integrating a HubSpot form on an external webpage is done by simply pasting the provided code into the div where the form should appear.</p>
+{% else %}
+  <h2>Formulaires</h2>
+  <p>Les formulaires (hormis le formulaire de prise de RDV s'il est utilisé) sont des formulaires HTML 
+    simples : la mise en forme se fera au moyen de l'application de styles CSS au niveau du front 
+    end, dans le contexte technique choisi.</p>
+
+  [La documentation de HubSpot donne plus d'informations sur ce sujet.](https://knowledge.hubspot.com/fr/forms/how-can-i-share-a-hubspot-form-if-im-using-an-external-site){:target="_blank"}
+
+  <p>L'intégration d'un formulaire se fait par le simple dépôt du code fourni dans la div où doit apparaître 
+    le formulaire en question.</p>
+{% endif %}
+
+
 {% for form in page.forms %}
-<h2>{{ form.name }}</h2>
+<h3>{{ form.name }}</h3>
 {% if form.comment %}
 <p><i>{{ form.comment }}</i></p>
 {% endif %}
