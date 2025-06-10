@@ -9,7 +9,7 @@ brand_domain: memmert.com
 main_domains:
 - name: All marketing content types
   type: CNAME
-  host: info
+  host: crm
   value: 145850363.group0.sites.hscoscdn-eu1.net
 - name: Quotes
   type: CNAME
