@@ -9,19 +9,19 @@ brand_domain: memmert.com
 main_domains:
 - name: All marketing content types
   type: CNAME
-  host: crm
+  host: info.frmce
   value: 145850363.group0.sites.hscoscdn-eu1.net
 - name: Quotes
   type: CNAME
-  host: quotes
+  host: quotes.frmce
   value: 145850363.group0.sites.hscoscdn-eu1.net
 - name: Meetings
   type: CNAME
-  host: meetings
+  host: meetings.frmce
   value: 145850363.group0.sites.hscoscdn-eu1.net
 - name: Email
   type: CNAME
-  host: email
+  host: email.frmce
   value: 145850363.group0.sites.hscoscdn-eu1.net
 sending_domains:
 - domain:
