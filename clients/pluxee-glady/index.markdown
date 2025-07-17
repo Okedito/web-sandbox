@@ -4,27 +4,13 @@ layout: page
 logo: yes
 hs_region: eu1
 hs_portalId: 146250427
-brand_domain: pluxee.fr
+brand_domain: glady.com
 main_domains:
 - name: Emails marketing
   type: CNAME
-  host: email
+  host: info.cadeaux
   value: 146250427.group0.sites.hscoscdn-eu1.net
 sending_domains:
-- domain:
-  name: pluxee.fr
-  dkim_main_type: CNAME
-  dkim_main_host: hs1-146250427._domainkey
-  dkim_main_value: pluxee-fr.hs19a.dkim.hubspotemail.net.
-  dkim_secondary_type: CNAME
-  dkim_secondary_host: hs2-146250427._domainkey
-  dkim_secondary_value: pluxee-fr.hs19b.dkim.hubspotemail.net.
-  spf_type: TXT
-  spf_host: "@"
-  spf_value: include:146250427.spf05.hubspotemail.net
-  dmarc_type: TXT
-  dmarc_host: _dmarc
-  dmarc_value: v=DMARC1; p=none;
 - domain:
   name: glady.com
   dkim_main_type: CNAME
