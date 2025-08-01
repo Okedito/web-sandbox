@@ -1,0 +1,32 @@
+{% if page.language == "en" %}
+
+<h2>English version to be created</h2>
+
+{% else %}
+<h2>Enregistrements DNS - Domaines redirigés</h2>
+
+{% for domain in page.redirected_domains %}
+<h3>Nom de domaine à configurer : {{ domain.name }}</h3>
+
+<table>
+    <tr>
+        <th>Type d'enregistrement</th>
+        <th>Hôte</th>
+        <th>Valeur</th>
+      </tr>
+    <tr>
+        <td>{{ domain.type_1 }}</td>
+        <td>{{ domain.host_1 }}</td>
+        <td>{{ domain.value_1 }}</td>
+    </tr>
+    <tr>
+        <td>{{ domain.type_2 }}</td>
+        <td>{{ domain.host_2 }}</td>
+        <td>{{ domain.value_2 }}</td>
+    </tr>
+</table>
+
+<hr style="width:75%;margin:2em auto">
+{% endfor %}
+{% endif %}
+<hr style="margin:2em 0">
