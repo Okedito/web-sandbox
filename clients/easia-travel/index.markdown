@@ -1,40 +1,106 @@
 ---
-title: Memmert
+title: Easia Travel
 layout: page
 logo: yes
 language: en
-hs_region: eu1
-hs_portalId: 145850363
-brand_domain: memmert.com
+hs_region: na1
+hs_portalId: 45847199
+brand_domain: easia-travel.com
 main_domains:
-- name: All marketing content types
+- name: Website pages	
   type: CNAME
-  host: info
-  value: 145850363.group0.sites.hscoscdn-eu1.net
+  host: website-page
+  value: 45847199.group49.sites.hubspot.net
+- name: Blog
+  type: CNAME
+  host: blog
+  value: 45847199.group49.sites.hubspot.net 
+- name: Landing pages	
+  type: CNAME
+  host: page
+  value: 45847199.group49.sites.hubspot.net
+- name: Marketing email (web version)
+  type: CNAME
+  host: campaign
+  value: 45847199.group49.sites.hubspot.net
+- name: Sales & service email (tracking)
+  type: CNAME
+  host: ???
+  value: 45847199.group49.sites.hubspot.net
+- name: Knowledge base
+  type: CNAME
+  host: ???
+  value: 45847199.group49.sites.hubspot.net
+- name: Customer portal
+  type: CNAME
+  host: ???
+  value: 45847199.group49.sites.hubspot.net
+- name: Podcast
+  type: CNAME
+  host: ???
+  value: 45847199.group49.sites.hubspot.net
 - name: Quotes
   type: CNAME
   host: quotes
-  value: 145850363.group0.sites.hscoscdn-eu1.net
-- name: Meetings
+  value: 45847199.group49.sites.hubspot.net
+- name: Meetings scheduler
   type: CNAME
   host: meetings
-  value: 145850363.group0.sites.hscoscdn-eu1.net
-- name: Email
-  type: CNAME
-  host: email
-  value: 145850363.group0.sites.hscoscdn-eu1.net
+  value: 45847199.group49.sites.hubspot.net
 sending_domains:
 - domain:
-  name: memmert.com
+  name: easia-active.com
   dkim_main_type: CNAME
-  dkim_main_host: hs1-145850363._domainkey
-  dkim_main_value: memmert-com.hs19a.dkim.hubspotemail.net.
+  dkim_main_host: hs1-45847199._domainkey
+  dkim_main_value: easia--active-com.hs11a.dkim.hubspotemail.net.
   dkim_secondary_type: CNAME
-  dkim_secondary_host: hs2-145850363._domainkey
-  dkim_secondary_value: memmert-com.hs19b.dkim.hubspotemail.net.
+  dkim_secondary_host: hs2-45847199._domainkey
+  dkim_secondary_value: easia--active-com.hs11b.dkim.hubspotemail.net.
   spf_type: TXT
   spf_host: "@"
-  spf_value: include:145850363.spf07.hubspotemail.net
+  spf_value: include:45847199.spf10.hubspotemail.net
+  dmarc_type: TXT
+  dmarc_host: _dmarc
+  dmarc_value: v=DMARC1; p=none;
+- domain:
+  name: easia-exclusive.com
+  dkim_main_type: CNAME
+  dkim_main_host: hs1-45847199._domainkey
+  dkim_main_value: easia--exclusive-com.hs11a.dkim.hubspotemail.net.
+  dkim_secondary_type: CNAME
+  dkim_secondary_host: hs2-45847199._domainkey
+  dkim_secondary_value: easia--exclusive-com.hs11b.dkim.hubspotemail.net.
+  spf_type: TXT
+  spf_host: "@"
+  spf_value: include:45847199.spf10.hubspotemail.net
+  dmarc_type: TXT
+  dmarc_host: _dmarc
+  dmarc_value: v=DMARC1; p=none;
+- domain:
+  name: easia-incentive.com
+  dkim_main_type: CNAME
+  dkim_main_host: hs1-45847199._domainkey
+  dkim_main_value: easia--incentive-com.hs11a.dkim.hubspotemail.net.
+  dkim_secondary_type: CNAME
+  dkim_secondary_host: hs2-45847199._domainkey
+  dkim_secondary_value: easia--incentive-com.hs11b.dkim.hubspotemail.net.
+  spf_type: TXT
+  spf_host: "@"
+  spf_value: include:45847199.spf10.hubspotemail.net
+  dmarc_type: TXT
+  dmarc_host: _dmarc
+  dmarc_value: v=DMARC1; p=none;
+- domain:
+  name: easia-travel.com
+  dkim_main_type: CNAME
+  dkim_main_host: hs1-45847199._domainkey
+  dkim_main_value: easia--travel-com.hs11a.dkim.hubspotemail.net.
+  dkim_secondary_type: CNAME
+  dkim_secondary_host: hs2-45847199._domainkey
+  dkim_secondary_value: easia--travel-com.hs11b.dkim.hubspotemail.net.
+  spf_type: TXT
+  spf_host: "@"
+  spf_value: include:45847199.spf10.hubspotemail.net
   dmarc_type: TXT
   dmarc_host: _dmarc
   dmarc_value: v=DMARC1; p=none;
