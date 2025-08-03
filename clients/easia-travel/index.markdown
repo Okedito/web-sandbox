@@ -109,8 +109,28 @@ sending_domains:
 #  occurence: first
 #  script: ""
 forms:
-- name: Basic contact form
-  id: 3407db41-e4ec-46ec-a6ea-a61757d9d6e4
+- name: Assistance request form
+  id: bc0f34a6-d354-45f3-b33d-940f12159538
+#  onFormReady: ""
+#  onFormSubmit: ""
+#  onFormSubmitted: ""
+- name: Leisure
+  id: 905bdb2d-dcd6-490c-8296-930bce2298bf
+#  onFormReady: ""
+#  onFormSubmit: ""
+#  onFormSubmitted: ""
+- name: Active
+  id: 2dda6bdf-5bc4-4592-9b94-c541ecdd0024
+#  onFormReady: ""
+#  onFormSubmit: ""
+#  onFormSubmitted: ""
+- name: Incentive
+  id: 88f26dd5-8645-4605-bf49-2d548d74d76e
+#  onFormReady: ""
+#  onFormSubmit: ""
+#  onFormSubmitted: ""
+- name: Koob qualification
+  id: 8f62dae1-e2d7-4027-a485-83a7d178d45e
 #  onFormReady: ""
 #  onFormSubmit: ""
 #  onFormSubmitted: ""
