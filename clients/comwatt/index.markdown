@@ -76,7 +76,7 @@ sending_domains:
 #- name: CTA - Obtenir un prix
 #  occurence: first
 #  script: ""
-#forms:
+forms:
 #- name: Formulaire contact - demande de rdv
 #  id: e5ea87d6-9d98-493a-b5fa-ac625a025942
 #  onFormReady: 
@@ -105,11 +105,14 @@ sending_domains:
 #  onFormReady: 
 #  onFormSubmit:
 #  onFormSubmitted:
-#- name: Formulaire Newsletter
-#  id: 20d28a87-02f1-48a9-9b41-cbdd62c4387d
-#  onFormReady: 
-#  onFormSubmit:
-#  onFormSubmitted:
+- name: Formulaire SAV - Application Comwatt
+  id: 05c5901b-6179-442f-b8a0-264b01cbe087
+- name: Formulaire SAV - Application CA-Monenergie
+  id: 66797db9-da4b-4b02-ba7d-b422bf9ab194
+- name: Formulaire SAV - Site Web
+  id: c8f27685-52cc-4a0c-b7ca-370a3f9f2ecc
+- name: Formulaire SAV - Espace client
+  id: 12a5df91-aa87-4a59-867e-0d90bb6246de
 ---
 {%- include section-introduction.html -%}
 
