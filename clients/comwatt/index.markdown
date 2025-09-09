@@ -58,20 +58,48 @@ sending_domains:
   dmarc_type: TXT
   dmarc_host: _dmarc
   dmarc_value: v=DMARC1; p=none;
-#- domain:
-#  name: comwatt.com
-#  dkim_main_type: CNAME
-#  dkim_main_host: hs1-146117604._domainkey
-#  dkim_main_value: comwatt-com.hs06a.dkim.hubspotemail.net.
-#  dkim_secondary_type: CNAME
-#  dkim_secondary_host: hs2-146117604._domainkey
-#  dkim_secondary_value: comwatt-com.hs06b.dkim.hubspotemail.net.
-#  spf_type: TXT
-#  spf_host: "@"
-#  spf_value: include:146117604.spf06.hubspotemail.net
-#  dmarc_type: TXT
-#  dmarc_host: _dmarc
-#  dmarc_value: v=DMARC1; p=none;
+- domain:
+  name: comwatt.com
+  dkim_main_type: CNAME
+  dkim_main_host: hs1-146117604._domainkey
+  dkim_main_value: comwatt-com.hs06a.dkim.hubspotemail.net.
+  dkim_secondary_type: CNAME
+  dkim_secondary_host: hs2-146117604._domainkey
+  dkim_secondary_value: comwatt-com.hs06b.dkim.hubspotemail.net.
+  spf_type: TXT
+  spf_host: "@"
+  spf_value: include:146117604.spf06.hubspotemail.net
+  dmarc_type: TXT
+  dmarc_host: _dmarc
+  dmarc_value: v=DMARC1; p=none;
+- domain:
+  name: sunvolt.fr
+  dkim_main_type: CNAME
+  dkim_main_host: hs1-146117604._domainkey
+  dkim_main_value: sunvolt-fr.hs06a.dkim.hubspotemail.net.
+  dkim_secondary_type: CNAME
+  dkim_secondary_host: hs2-146117604._domainkey
+  dkim_secondary_value: sunvolt-fr.hs06b.dkim.hubspotemail.net.
+  spf_type: TXT
+  spf_host: "@"
+  spf_value: include:146117604.spf06.hubspotemail.net
+  dmarc_type: TXT
+  dmarc_host: _dmarc
+  dmarc_value: v=DMARC1; p=none;
+- domain:
+  name: comwatt-equipement.fr
+  dkim_main_type: CNAME
+  dkim_main_host: hs1-146117604._domainkey
+  dkim_main_value: comwatt--equipement-fr.hs06a.dkim.hubspotemail.net.
+  dkim_secondary_type: CNAME
+  dkim_secondary_host: hs2-146117604._domainkey
+  dkim_secondary_value: comwatt--equipement-fr.hs06b.dkim.hubspotemail.net.
+  spf_type: TXT
+  spf_host: "@"
+  spf_value: include:146117604.spf06.hubspotemail.net
+  dmarc_type: TXT
+  dmarc_host: _dmarc
+  dmarc_value: v=DMARC1; p=none;
 #ctas:
 #- name: CTA - Obtenir un prix
 #  occurence: first
