@@ -40,34 +40,6 @@ sending_domains:
   dmarc_host: _dmarc
   dmarc_value: v=DMARC1; p=none;
 - domain:
-  name: communications.pluxee.fr
-  dkim_main_type: CNAME
-  dkim_main_host: hs1-146250427._domainkey.communications
-  dkim_main_value: communications-pluxee-fr.hs19a.dkim.hubspotemail.net.
-  dkim_secondary_type: CNAME
-  dkim_secondary_host: hs2-146250427._domainkey.communications
-  dkim_secondary_value: communications-pluxee-fr.hs19b.dkim.hubspotemail.net.
-  spf_type: TXT
-  spf_host: "@"
-  spf_value: include:146250427.spf05.hubspotemail.net
-  dmarc_type: TXT
-  dmarc_host: _dmarc
-  dmarc_value: v=DMARC1; p=none;
-- domain:
-  name: infos.pluxee.fr
-  dkim_main_type: CNAME
-  dkim_main_host: hs1-146250427._domainkey.infos
-  dkim_main_value: infos-pluxee-fr.hs19a.dkim.hubspotemail.net.
-  dkim_secondary_type: CNAME
-  dkim_secondary_host: hs2-146250427._domainkey.infos
-  dkim_secondary_value: infos-pluxee-fr.hs19b.dkim.hubspotemail.net.
-  spf_type: TXT
-  spf_host: "@"
-  spf_value: v=spf1 include:146250427.spf05.hubspotemail.net -all
-  dmarc_type: TXT
-  dmarc_host: _dmarc
-  dmarc_value: v=DMARC1; p=none;
-- domain:
   name: cadeaux.pluxee.fr
   dkim_main_type: CNAME
   dkim_main_host: hs1-146250427._domainkey.cadeaux
