@@ -4,9 +4,10 @@ layout: page
 logo: yes
 language: en
 hs_region: eu1
-hs_portalId: 147529884 #Sandbox
+#hs_portalId: 147529884 #Sandbox
+hs_portalId: 25027870 #Production
 brand_domain: smartemis.com
-#main_domains:
+main_domains:
 #- name: Website pages	
 #  type: CNAME
 #  host: website-page
@@ -15,18 +16,22 @@ brand_domain: smartemis.com
 #  type: CNAME
 #  host: blog
 #  value: 45847199.group49.sites.hubspot.net 
-#- name: Landing pages	
-#  type: CNAME
-#  host: page
-#  value: 45847199.group49.sites.hubspot.net
-#- name: Marketing email (web version)
-#  type: CNAME
-#  host: email
-#  value: 147202787.group0.sites.hscoscdn-eu1.net
-#- name: Domain validation entry
-#  type: TXT
-#  host: _cf-custom-hostname.email
-#  value: e7363864-7b3b-4ac1-97e4-4ea60de0e596
+- name: Landing pages	
+  type: CNAME
+  host: info
+  value: 25027870.group0.sites.hscoscdn-eu1.net
+- name: Landing pages - domain validation entry
+  type: TXT
+  host: _cf-custom-hostname.info
+  value: 9a2ed781-b21f-4961-95ef-6247afe74854
+- name: Marketing email (web version)
+  type: CNAME
+  host: email
+  value: 25027870.group0.sites.hscoscdn-eu1.net
+- name: Marketing email (web version) - domain validation entry
+  type: TXT
+  host: _cf-custom-hostname.email
+  value: eb47b72f-336d-4568-96de-6987d95eeffd
 #- name: Sales & service email (tracking)
 #  type: CNAME
 #  host: ???
@@ -47,10 +52,10 @@ brand_domain: smartemis.com
 #  type: CNAME
 #  host: quotes
 #  value: 45847199.group49.sites.hubspot.net
-#- name: Meetings scheduler
-#  type: CNAME
-#  host: meetings
-#  value: 45847199.group49.sites.hubspot.net
+- name: Meetings scheduler
+  type: CNAME
+  host: meetings
+  value: To be confirmed, once main domains have been configured
 #sending_domains:
 #- domain:
 #  name: tradelios.com
@@ -70,12 +75,27 @@ brand_domain: smartemis.com
 #- name: 
 #  occurence: first
 #  script: ""
-forms:
-- name: Germany - Kontaktformular
-  id: 518f1791-e6f7-4edb-a553-fd5f56249ad8
+#forms:
+#- name: Germany - Kontaktformular
+#  id: 518f1791-e6f7-4edb-a553-fd5f56249ad8
 #  onFormReady: ""
 #  onFormSubmit: ""
 #  onFormSubmitted: ""
+#- name: French - Dummy form - Landing page (legacy)
+#  id: e995c4b6-216d-4cc9-8f8e-3b8ba3cd7ab4
+  #onFormReady: ""
+  #onFormSubmit: ""
+  #onFormSubmitted: ""
+#- name: French - Dummy form - Thank-you page (legacy)
+#  id: 61e71be8-30ef-48fd-a208-ea29928a3635
+  #onFormReady: ""
+  #onFormSubmit: ""
+  #onFormSubmitted: ""
+new_forms:
+- name: French - Gated content form proof of concept - landing page
+  id: 8f8f3e12-70dd-4295-8c47-2c327126addd
+- name: French - Gated content form proof of concept - thank-you page
+  id: d483c791-9712-44aa-9072-30d4d43f6881
 ---
 {%- include section-introduction.html -%}
 
@@ -99,10 +119,14 @@ forms:
     {%- include section-ctas.html -%}
 {% endif %}
 
+{% if page.new_forms %}
+    {%- include section-new-forms-v1.html -%}
+{% endif%}
+
 {% if page.forms %}
     {%- include section-forms-v2.html -%}
 {% endif %}
 
-<!-- Start of HubSpot Embed Code -->
+<!-- Start of HubSpot Embed Code
 <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/147529884.js"></script>
-<!-- End of HubSpot Embed Code -->
+End of HubSpot Embed Code -->

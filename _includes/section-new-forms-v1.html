@@ -1,0 +1,32 @@
+{% if page.language == "en" %}
+  <h2>Forms</h2>
+
+  [HubSpot's documentation provides information on how to insert forms on external web pages.](https://knowledge.hubspot.com/forms/set-up-and-style-your-form-on-an-external-site){:target="_blank"}
+
+  [It is possible to overide the style applied natively to the form using additional on site CSS.](https://developers.hubspot.com/docs/cms/start-building/features/forms/forms){:target="_blank"}
+
+  <p>Integrating a HubSpot form on an external webpage is done by simply pasting the provided code into the div where the form should appear.</p>
+{% else %}
+  <h2>Formulaires</h2>
+  <p>A mettre à jour (traduire de l'anglais)</p>
+
+  <p>L'intégration d'un formulaire se fait par le simple dépôt du code fourni dans la div où doit apparaître 
+    le formulaire en question.</p>
+{% endif %}
+
+
+{% for form in page.new_forms %}
+<h3>{{ form.name }}</h3>
+{% if form.comment %}
+<p><i>{{ form.comment }}</i></p>
+{% endif %}
+<button onclick="CopyToClipboard('{{ form.id }}')">{% if page.language == "en" %}Copy code{% else %}Copier le code{% endif %}</button>
+
+    <script src="https://{% if page.hs_region == "na1" %}js{% else %}js-eu1{% endif%}.hsforms.net/forms/embed/{{ page.hs_portalId }}.js" defer></script>
+    <div class="hs-form-frame" data-region="eu1" data-form-id="{{ form.id }}" data-portal-id="{{ page.hs_portalId }}"></div>
+  {: id="A{{ form.id }}"}
+
+<script src="https://{% if page.hs_region == "na1" %}js{% else %}js-eu1{% endif%}.hsforms.net/forms/embed/{{ page.hs_portalId }}.js" defer></script>
+<div class="hs-form-frame" data-region="eu1" data-form-id="{{ form.id }}" data-portal-id="{{ page.hs_portalId }}"></div>
+<hr style="margin:2em 0">
+{% endfor %}
