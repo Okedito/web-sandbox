@@ -75,17 +75,11 @@ main_domains:
 #- name: 
 #  occurence: first
 #  script: ""
-#forms:
-#- name: Germany - Kontaktformular
-#  id: 518f1791-e6f7-4edb-a553-fd5f56249ad8
-#  onFormReady: ""
-#  onFormSubmit: ""
-#  onFormSubmitted: ""
-#- name: French - Dummy form - Landing page (legacy)
-#  id: e995c4b6-216d-4cc9-8f8e-3b8ba3cd7ab4
-  #onFormReady: ""
-  #onFormSubmit: ""
-  #onFormSubmitted: ""
+forms:
+- name: Germany - Kontaktformular
+  id: 518f1791-e6f7-4edb-a553-fd5f56249ad8
+- name: German - Bewerberformular
+  id: d1842234-7b20-4889-b59f-5efac7200ad1
 #- name: French - Dummy form - Thank-you page (legacy)
 #  id: 61e71be8-30ef-48fd-a208-ea29928a3635
   #onFormReady: ""
@@ -96,6 +90,26 @@ new_forms:
   id: 8f8f3e12-70dd-4295-8c47-2c327126addd
 - name: French - Gated content form proof of concept - thank-you page
   id: d483c791-9712-44aa-9072-30d4d43f6881
+- name: French - Newsletter registration form
+  id: eefdfcc8-8a24-444e-b4ed-471fdd9bdff7
+- name: German - Newsletter registration form
+  id: 5a034d43-36c1-4228-b745-104ea79c3a59
+- name: German - Lead form
+  id: 77a13db8-5f0f-454a-a928-7cc74a904a95
+- name: French - Lead form
+  id: 70b4ffb2-3b16-4906-910d-5384d86272e9
+- name: French - MQL form
+  id: c9707624-c9c7-4aed-aca9-7b5f38d35619
+- name: German - MQL form
+  id: d0ad15dc-a10b-4575-81ab-896bb4ea1dcc
+- name: French - SQL form
+  id: ce6598d3-e0fc-45fd-9295-7f3eb3e53942
+- name: German - SQL form
+  id: 7aceb99a-2cf3-4fde-8047-82a3b758b639
+- name: French - Contact form
+  id: ca378315-0a88-48d1-a561-5ab234e6bf72
+- name: German - Contact form
+  id: 2cc38f96-7384-4ec7-a565-43bddcc4d556
 ---
 {%- include section-introduction.html -%}
 
