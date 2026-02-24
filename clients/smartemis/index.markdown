@@ -94,10 +94,10 @@ new_forms:
   id: eefdfcc8-8a24-444e-b4ed-471fdd9bdff7
 - name: German - Newsletter registration form
   id: 5a034d43-36c1-4228-b745-104ea79c3a59
-- name: German - Lead form
-  id: 77a13db8-5f0f-454a-a928-7cc74a904a95
 - name: French - Lead form
   id: 70b4ffb2-3b16-4906-910d-5384d86272e9
+- name: German - Lead form
+  id: 77a13db8-5f0f-454a-a928-7cc74a904a95
 - name: French - MQL form
   id: c9707624-c9c7-4aed-aca9-7b5f38d35619
 - name: German - MQL form
