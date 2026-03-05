@@ -71,20 +71,11 @@ main_domains:
 #  dmarc_type: TXT
 #  dmarc_host: _dmarc
 #  dmarc_value: v=DMARC1; p=none;
-#ctas:
-#- name: 
-#  occurence: first
-#  script: ""
 forms:
 - name: Germany - Kontaktformular
   id: 518f1791-e6f7-4edb-a553-fd5f56249ad8
 - name: German - Bewerberformular
   id: d1842234-7b20-4889-b59f-5efac7200ad1
-#- name: French - Dummy form - Thank-you page (legacy)
-#  id: 61e71be8-30ef-48fd-a208-ea29928a3635
-  #onFormReady: ""
-  #onFormSubmit: ""
-  #onFormSubmitted: ""
 new_forms:
 - name: French - Gated content form proof of concept - landing page
   id: 8f8f3e12-70dd-4295-8c47-2c327126addd
@@ -110,6 +101,52 @@ new_forms:
   id: ca378315-0a88-48d1-a561-5ab234e6bf72
 - name: German - Contact form
   id: 2cc38f96-7384-4ec7-a565-43bddcc4d556
+ctas:
+- name: Download whitepaper - en
+  occurence: first
+  script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-374430355663\"
+  style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"374430355663\">
+  <a href=\"https://cta-eu1.hubspot.com/web-interactives/public/v1/track/redirect?encryptedPayload=AVxigLInQD1Dk2EQPcu4Ktd4AZx2zc%2BSArO7tTSsU5RUnXe6lnusVJe9SPnKZQCU4nSSln2UtZZc2B5Zr5rHi%2F3wgrEphMZVr%2BkGziaDDQUl2ZifEdbQO5kKITawCM39qLDXJLeD1YXNLKSIHo%2F3e3SFMKLR6IoLD4mz2RO82mk%3D&webInteractiveContentId=374430355663&portalId=25027870\" target=\"_blank\" rel=\"noopener\" crossorigin=\"anonymous\">
+    <img alt=\"Download&amp;nbsp;Whitepaper\" loading=\"lazy\" src=\"https://hubspot-no-cache-eu1-prod.s3.amazonaws.com/cta/default/25027870/interactive-374430355663.png\" style=\"height: 100%; width: 100%; object-fit: fill\"
+      onerror=\"this.style.display='none'\" />
+  </a>
+</div>"
+- name: Download Case Study - en
+  occurence: 
+  script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-374643795190\"
+  style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"374643795190\">
+  <a href=\"https://cta-eu1.hubspot.com/web-interactives/public/v1/track/redirect?encryptedPayload=AVxigLIkagu1AngfCO7LHG%2B%2F%2BzBVe9SHjfmLFvm%2BXrErK2LJcuJ0hekZy2hhAXPIpJ0t50%2BXS6AE%2B1M1%2FtrhFGYsLJByoPBOW223RFROnYkm%2F0CMk%2BI%3D&webInteractiveContentId=374643795190&portalId=25027870\" target=\"_blank\" rel=\"noopener\" crossorigin=\"anonymous\">
+    <img alt=\"Download&amp;nbsp;Case&amp;nbsp;Study\" loading=\"lazy\" src=\"https://hubspot-no-cache-eu1-prod.s3.amazonaws.com/cta/default/25027870/interactive-374643795190.png\" style=\"height: 100%; width: 100%; object-fit: fill\"
+      onerror=\"this.style.display='none'\" />
+  </a>
+</div>"
+- name: View Video - en
+  occurence: 
+  script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-374463867095\"
+  style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"374463867095\">
+  <a href=\"https://cta-eu1.hubspot.com/web-interactives/public/v1/track/redirect?encryptedPayload=AVxigLIWqdKj%2Bngaq24pK1jvGmeYKR0mHCRZALh4zqFqc%2FvY4yQjOihiaSIsLMzoyBQ2TLgypUu0G%2BggBA9FNWu%2Bv0CgP%2FefVmVT%2F2Tjxu6letXC5so%3D&webInteractiveContentId=374463867095&portalId=25027870\" target=\"_blank\" rel=\"noopener\" crossorigin=\"anonymous\">
+    <img alt=\"View&amp;nbsp;Video\" loading=\"lazy\" src=\"https://hubspot-no-cache-eu1-prod.s3.amazonaws.com/cta/default/25027870/interactive-374463867095.png\" style=\"height: 100%; width: 100%; object-fit: fill\"
+      onerror=\"this.style.display='none'\" />
+  </a>
+</div>"
+- name: Contact Us - en
+  occurence: 
+  script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-374643796174\"
+  style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"374643796174\">
+  <a href=\"https://cta-eu1.hubspot.com/web-interactives/public/v1/track/redirect?encryptedPayload=AVxigLL30SGUuOftNZsKvbkysdFY5rFH8nXPoSHC8pMoDGiD9MJoJVFOtvTY29znB%2FpOGB4AyxXktEVqQKW164D8UdX6UDXIcsap3CAFNmsCudWR56kW3IPu7gtTdwPDwzyVZX3Rdd0q7358%2BLsjyzgLMpFHlfXK79Ac8nVD5QI%3D&webInteractiveContentId=374643796174&portalId=25027870\" target=\"_blank\" rel=\"noopener\" crossorigin=\"anonymous\">
+    <img alt=\"Contact&amp;nbsp;Us\" loading=\"lazy\" src=\"https://hubspot-no-cache-eu1-prod.s3.amazonaws.com/cta/default/25027870/interactive-374643796174.png\" style=\"height: 100%; width: 100%; object-fit: fill\"
+      onerror=\"this.style.display='none'\" />
+  </a>
+</div>"
+- name: Book an appointment - en
+  occurence: 
+  script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-374773128426\"
+  style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"374773128426\">
+  <a href=\"https://cta-eu1.hubspot.com/web-interactives/public/v1/track/redirect?encryptedPayload=AVxigLKeruf0sBf7mnSU%2FrxoD%2FB7Mox9LFb2%2BxCLuCYsTSKRMk4rM8T1WyWomfy0VwPJmsZe4D1lG9M%2FSkQhhNq3UpTH8pADZL8T31120oLKoDfNCC0%3D&webInteractiveContentId=374773128426&portalId=25027870\" target=\"_blank\" rel=\"noopener\" crossorigin=\"anonymous\">
+    <img alt=\"Book&amp;nbsp;an&amp;nbsp;appointment\" loading=\"lazy\" src=\"https://hubspot-no-cache-eu1-prod.s3.amazonaws.com/cta/default/25027870/interactive-374773128426.png\" style=\"height: 100%; width: 100%; object-fit: fill\"
+      onerror=\"this.style.display='none'\" />
+  </a>
+</div>"
 ---
 {%- include section-introduction.html -%}
 
@@ -129,16 +166,16 @@ new_forms:
     {%- include section-domains-sending.html -%}
 {% endif %}
 
-{% if page.ctas %}
-    {%- include section-ctas.html -%}
-{% endif %}
-
 {% if page.new_forms %}
     {%- include section-new-forms-v1.html -%}
 {% endif%}
 
 {% if page.forms %}
     {%- include section-forms-v2.html -%}
+{% endif %}
+
+{% if page.ctas %}
+    {%- include section-ctas-v2.html -%}
 {% endif %}
 
 <!-- Start of HubSpot Embed Code

@@ -1,0 +1,24 @@
+{% if page.language == "en" %}
+  <h2>CTAs</h2>
+
+  [HubSpot's documentation provides information on how to insert CTAs on external web pages.](https://knowledge.hubspot.com/ctas/add-ctas-to-your-pages?hubs_content=knowledge.hubspot.com/fr/ctas/add-ctas-to-your-pages&hubs_content-cta=english&Sid=1#add-a-cta-to-your-external-content:~:text=on%20your%20pages.-,Add%20a%20CTA%20to%20your%20external%20content,-To%20add%20a){:target="_blank"}
+{% else %}
+  <h2>CTAs / Boutons d'appel à l'action</h2>
+  [La documentation de HubSpot indique comment insérer un CTA HubSpot sur une page externe.](https://knowledge.hubspot.com/fr/ctas/add-ctas-to-your-pages?hubs_content=knowledge.hubspot.com/ctas/add-ctas-to-your-pages&hubs_content-cta=fran%C3%A7ais&Sid=1){:target="_blank"}
+{% endif %}
+
+{% for cta in page.ctas %}
+<h2>{{ cta.name }}</h2>
+<button onclick="CopyToClipboard('{{ cta.occurence }}')">Copier le code</button>
+
+    <!-- Begin HubSpot Call-to-Action Code -->
+    {{ cta.script }}
+    <!-- End HubSpot Call-to-Action Code -->
+  {: id="A{{ cta.occurence }}"}
+
+  <!-- Begin HubSpot Call-to-Action Code -->
+{{ cta.script }}
+<!-- End HubSpot Call-to-Action Code -->
+
+<hr style="margin:2em 0">
+{% endfor %}
