@@ -72,37 +72,43 @@ main_domains:
 #  dmarc_host: _dmarc
 #  dmarc_value: v=DMARC1; p=none;
 forms:
-- name: Germany - Kontaktformular
+- name: DE - Kontaktformular
   id: 518f1791-e6f7-4edb-a553-fd5f56249ad8
-- name: German - Bewerberformular
+- name: DE - Bewerberformular
   id: d1842234-7b20-4889-b59f-5efac7200ad1
 new_forms:
-- name: French - Gated content form proof of concept - landing page
+- name: FR - Gated content form proof of concept - landing page
   id: 8f8f3e12-70dd-4295-8c47-2c327126addd
-- name: French - Gated content form proof of concept - thank-you page
+- name: FR - Gated content form proof of concept - thank-you page
   id: d483c791-9712-44aa-9072-30d4d43f6881
-- name: French - Newsletter registration form
+- name: FR - Newsletter registration form
   id: eefdfcc8-8a24-444e-b4ed-471fdd9bdff7
-- name: German - Newsletter registration form
+- name: DE - Newsletter registration form
   id: 5a034d43-36c1-4228-b745-104ea79c3a59
-- name: French - Lead form
+- name: FR - Lead form
   id: 70b4ffb2-3b16-4906-910d-5384d86272e9
-- name: German - Lead form
+- name: DE - Lead form
   id: 77a13db8-5f0f-454a-a928-7cc74a904a95
-- name: French - MQL form
+- name: FR - MQL form
   id: c9707624-c9c7-4aed-aca9-7b5f38d35619
-- name: German - MQL form
+- name: DE - MQL form
   id: d0ad15dc-a10b-4575-81ab-896bb4ea1dcc
-- name: French - SQL form
+- name: FR - SQL form
   id: ce6598d3-e0fc-45fd-9295-7f3eb3e53942
-- name: German - SQL form
+- name: DE - SQL form
   id: 7aceb99a-2cf3-4fde-8047-82a3b758b639
-- name: French - Contact form
+- name: DE - Contact form
   id: ca378315-0a88-48d1-a561-5ab234e6bf72
-- name: German - Contact form
+- name: DE - Contact form
   id: 2cc38f96-7384-4ec7-a565-43bddcc4d556
+- name: EN - Request Investor Material
+  id: 6885c739-a161-4038-9996-75d0c7275f47
+- name: DE - Submit Your Application
+  id: 725ea039-5137-4632-b776-418b58bcadcc
+- name: FR - Submit Your Application
+  id: ef6439bf-c17c-4d8d-a898-9754743e04d0
 ctas:
-- name: Download Whitepaper - en
+- name: EN - Download Whitepaper
   occurence: first
   script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-374430355663\"
   style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"374430355663\">
@@ -111,7 +117,7 @@ ctas:
       onerror=\"this.style.display='none'\" />
   </a>
 </div>"
-- name: Download Whitepaper - fr
+- name: FR - Download Whitepaper
   occurence: 
   script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-375162943725\"
   style=\"max-width:100%; max-height:100%; width:240px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"375162943725\">
@@ -120,7 +126,7 @@ ctas:
       onerror=\"this.style.display='none'\" />
   </a>
 </div>"
-- name: Download Whitepaper - de
+- name: DE - Download Whitepaper
   occurence: 
   script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-375163004111\"
   style=\"max-width:100%; max-height:100%; width:250px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"375163004111\">
@@ -129,7 +135,7 @@ ctas:
       onerror=\"this.style.display='none'\" />
   </a>
 </div>"
-- name: Download Case Study - en
+- name: EN - Download Case Study
   occurence: 
   script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-374643795190\"
   style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"374643795190\">
@@ -138,7 +144,7 @@ ctas:
       onerror=\"this.style.display='none'\" />
   </a>
 </div>"
-- name: Download Case Study - fr
+- name: FR - Download Case Study
   occurence: 
   script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-375163003109\"
   style=\"max-width:100%; max-height:100%; width:260px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"375163003109\">
@@ -147,7 +153,7 @@ ctas:
       onerror=\"this.style.display='none'\" />
   </a>
 </div>"
-- name: Download Case Study - de
+- name: DE - Download Case Study
   occurence: 
   script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-375163004129\"
   style=\"max-width:100%; max-height:100%; width:240px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"375163004129\">
@@ -156,7 +162,7 @@ ctas:
       onerror=\"this.style.display='none'\" />
   </a>
 </div>"
-- name: View Video - en
+- name: EN - View Video
   occurence: 
   script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-374463867095\"
   style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"374463867095\">
@@ -165,7 +171,7 @@ ctas:
       onerror=\"this.style.display='none'\" />
   </a>
 </div>"
-- name: View Video - fr
+- name: FR - View Video
   occurence: 
   script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-375162945768\"
   style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"375162945768\">
@@ -174,7 +180,7 @@ ctas:
       onerror=\"this.style.display='none'\" />
   </a>
 </div>"
-- name: View Video - de
+- name: DE - View Video
   occurence: 
   script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-375163075810\"
   style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"375163075810\">
@@ -183,7 +189,7 @@ ctas:
       onerror=\"this.style.display='none'\" />
   </a>
 </div>"
-- name: Contact Us - en
+- name: EN - Contact Us
   occurence: 
   script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-374643796174\"
   style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"374643796174\">
@@ -192,7 +198,7 @@ ctas:
       onerror=\"this.style.display='none'\" />
   </a>
 </div>"
-- name: Contact Us - fr
+- name: FR - Contact Us
   occurence: 
   script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-375162943716\"
   style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"375162943716\">
@@ -201,7 +207,7 @@ ctas:
       onerror=\"this.style.display='none'\" />
   </a>
 </div>"
-- name: Contact Us - de
+- name: DE - Contact Us
   occurence: 
   script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-375163075827\"
   style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"375163075827\">
@@ -210,7 +216,7 @@ ctas:
       onerror=\"this.style.display='none'\" />
   </a>
 </div>"
-- name: Book an appointment - en
+- name: EN - Book an appointment
   occurence: 
   script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-374773128426\"
   style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"374773128426\">
@@ -219,7 +225,7 @@ ctas:
       onerror=\"this.style.display='none'\" />
   </a>
 </div>"
-- name: Book an appointment - fr
+- name: FR - Book an appointment
   occurence: 
   script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-375162943690\"
   style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"375162943690\">
@@ -228,7 +234,7 @@ ctas:
       onerror=\"this.style.display='none'\" />
   </a>
 </div>"
-- name: Book an appointment - de
+- name: DE - Book an appointment
   occurence: 
   script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-375163409644\"
   style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"375163409644\">
