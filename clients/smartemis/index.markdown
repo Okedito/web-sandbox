@@ -97,7 +97,7 @@ new_forms:
   id: ce6598d3-e0fc-45fd-9295-7f3eb3e53942
 - name: DE - SQL form
   id: 7aceb99a-2cf3-4fde-8047-82a3b758b639
-- name: DE - Contact form
+- name: FR - Contact form
   id: ca378315-0a88-48d1-a561-5ab234e6bf72
 - name: DE - Contact form
   id: 2cc38f96-7384-4ec7-a565-43bddcc4d556
