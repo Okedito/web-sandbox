@@ -102,12 +102,30 @@ new_forms:
 - name: German - Contact form
   id: 2cc38f96-7384-4ec7-a565-43bddcc4d556
 ctas:
-- name: Download whitepaper - en
+- name: Download Whitepaper - en
   occurence: first
   script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-374430355663\"
   style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"374430355663\">
   <a href=\"https://cta-eu1.hubspot.com/web-interactives/public/v1/track/redirect?encryptedPayload=AVxigLInQD1Dk2EQPcu4Ktd4AZx2zc%2BSArO7tTSsU5RUnXe6lnusVJe9SPnKZQCU4nSSln2UtZZc2B5Zr5rHi%2F3wgrEphMZVr%2BkGziaDDQUl2ZifEdbQO5kKITawCM39qLDXJLeD1YXNLKSIHo%2F3e3SFMKLR6IoLD4mz2RO82mk%3D&webInteractiveContentId=374430355663&portalId=25027870\" target=\"_blank\" rel=\"noopener\" crossorigin=\"anonymous\">
     <img alt=\"Download&amp;nbsp;Whitepaper\" loading=\"lazy\" src=\"https://hubspot-no-cache-eu1-prod.s3.amazonaws.com/cta/default/25027870/interactive-374430355663.png\" style=\"height: 100%; width: 100%; object-fit: fill\"
+      onerror=\"this.style.display='none'\" />
+  </a>
+</div>"
+- name: Download Whitepaper - fr
+  occurence: 
+  script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-375162943725\"
+  style=\"max-width:100%; max-height:100%; width:240px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"375162943725\">
+  <a href=\"https://cta-eu1.hubspot.com/web-interactives/public/v1/track/redirect?encryptedPayload=AVxigLKVCuA05oVCYqVdwtPhtlcwbDzsb6Wdccb5Ojw8k0oh6DBdryThBBiidKCzaKTrzy3YoUaxTL85CSC0N7Wq7080kvLBdcFffo1oSNGNmBt38uA%3D&webInteractiveContentId=375162943725&portalId=25027870\" target=\"_blank\" rel=\"noopener\" crossorigin=\"anonymous\">
+    <img alt=\"T&eacute;l&eacute;charger&amp;nbsp;le&amp;nbsp;livre&amp;nbsp;blanc\" loading=\"lazy\" src=\"https://hubspot-no-cache-eu1-prod.s3.amazonaws.com/cta/default/25027870/interactive-375162943725.png\" style=\"height: 100%; width: 100%; object-fit: fill\"
+      onerror=\"this.style.display='none'\" />
+  </a>
+</div>"
+- name: Download Whitepaper - de
+  occurence: 
+  script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-375163004111\"
+  style=\"max-width:100%; max-height:100%; width:250px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"375163004111\">
+  <a href=\"https://cta-eu1.hubspot.com/web-interactives/public/v1/track/redirect?encryptedPayload=AVxigLLoSEGTav3jt7DSkiBwXxK2vPhHpfmt9BXpsci%2BlhKOuiFP0gQ6CpuSaDpTBfL2fXCxQPugbI7GFCWkwX6JSSq3d840CSPC3%2FfCyaDdB4HRnZ0%3D&webInteractiveContentId=375163004111&portalId=25027870\" target=\"_blank\" rel=\"noopener\" crossorigin=\"anonymous\">
+    <img alt=\"Whitepaper&amp;nbsp;herunterladen\" loading=\"lazy\" src=\"https://hubspot-no-cache-eu1-prod.s3.amazonaws.com/cta/default/25027870/interactive-375163004111.png\" style=\"height: 100%; width: 100%; object-fit: fill\"
       onerror=\"this.style.display='none'\" />
   </a>
 </div>"
@@ -120,12 +138,48 @@ ctas:
       onerror=\"this.style.display='none'\" />
   </a>
 </div>"
+- name: Download Case Study - fr
+  occurence: 
+  script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-375163003109\"
+  style=\"max-width:100%; max-height:100%; width:260px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"375163003109\">
+  <a href=\"https://cta-eu1.hubspot.com/web-interactives/public/v1/track/redirect?encryptedPayload=AVxigLLi1XxstcJ8jd8Ny%2BNUHcKARR4xqWdw5dtahsdfj9DL%2F0K%2FMzI3FSIQsWy1AKUuVqyHChE2nPd94eD8YRHYq%2Fgv7euEpevwUzERHhEBtAq%2FFtE%3D&webInteractiveContentId=375163003109&portalId=25027870\" target=\"_blank\" rel=\"noopener\" crossorigin=\"anonymous\">
+    <img alt=\"T&eacute;l&eacute;charger&amp;nbsp;l'&eacute;tude&amp;nbsp;de&amp;nbsp;cas\" loading=\"lazy\" src=\"https://hubspot-no-cache-eu1-prod.s3.amazonaws.com/cta/default/25027870/interactive-375163003109.png\" style=\"height: 100%; width: 100%; object-fit: fill\"
+      onerror=\"this.style.display='none'\" />
+  </a>
+</div>"
+- name: Download Case Study - de
+  occurence: 
+  script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-375163004129\"
+  style=\"max-width:100%; max-height:100%; width:240px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"375163004129\">
+  <a href=\"https://cta-eu1.hubspot.com/web-interactives/public/v1/track/redirect?encryptedPayload=AVxigLKAV8qs6wRb8KsZxh2tEfQMOfTr%2FUSJEnthyj7ruIaCbfDvRzdz%2BOLiHroq%2B%2B288JLwZ4%2FA0j63XLI9kurkzxw%2B7VCtb4GAKVcaNkwQ6UzLQH8%3D&webInteractiveContentId=375163004129&portalId=25027870\" target=\"_blank\" rel=\"noopener\" crossorigin=\"anonymous\">
+    <img alt=\"Fallstudie&amp;nbsp;herunterladen\" loading=\"lazy\" src=\"https://hubspot-no-cache-eu1-prod.s3.amazonaws.com/cta/default/25027870/interactive-375163004129.png\" style=\"height: 100%; width: 100%; object-fit: fill\"
+      onerror=\"this.style.display='none'\" />
+  </a>
+</div>"
 - name: View Video - en
   occurence: 
   script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-374463867095\"
   style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"374463867095\">
   <a href=\"https://cta-eu1.hubspot.com/web-interactives/public/v1/track/redirect?encryptedPayload=AVxigLIWqdKj%2Bngaq24pK1jvGmeYKR0mHCRZALh4zqFqc%2FvY4yQjOihiaSIsLMzoyBQ2TLgypUu0G%2BggBA9FNWu%2Bv0CgP%2FefVmVT%2F2Tjxu6letXC5so%3D&webInteractiveContentId=374463867095&portalId=25027870\" target=\"_blank\" rel=\"noopener\" crossorigin=\"anonymous\">
     <img alt=\"View&amp;nbsp;Video\" loading=\"lazy\" src=\"https://hubspot-no-cache-eu1-prod.s3.amazonaws.com/cta/default/25027870/interactive-374463867095.png\" style=\"height: 100%; width: 100%; object-fit: fill\"
+      onerror=\"this.style.display='none'\" />
+  </a>
+</div>"
+- name: View Video - fr
+  occurence: 
+  script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-375162945768\"
+  style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"375162945768\">
+  <a href=\"https://cta-eu1.hubspot.com/web-interactives/public/v1/track/redirect?encryptedPayload=AVxigLL89dqvC7eFDoN%2B9Bu%2Fv2Y1mtVTSh4dqmBEA%2BwMtly52YrJ1H%2FdSuE0Jy6FMA%2FT%2BOZZp2OhQr0yXD%2B9h0gpy%2BO44%2FCnRRrlZw6OqjHAcp3IW8iWSIFSnrwHrHcXuBgH826sFkyS7SMWpidTHiO4%2BXzOEGsKZja25NV%2BHqg%3D&webInteractiveContentId=375162945768&portalId=25027870\" target=\"_blank\" rel=\"noopener\" crossorigin=\"anonymous\">
+    <img alt=\"Regarder&amp;nbsp;la&amp;nbsp;vid&eacute;o\" loading=\"lazy\" src=\"https://hubspot-no-cache-eu1-prod.s3.amazonaws.com/cta/default/25027870/interactive-375162945768.png\" style=\"height: 100%; width: 100%; object-fit: fill\"
+      onerror=\"this.style.display='none'\" />
+  </a>
+</div>"
+- name: View Video - de
+  occurence: 
+  script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-375163075810\"
+  style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"375163075810\">
+  <a href=\"https://cta-eu1.hubspot.com/web-interactives/public/v1/track/redirect?encryptedPayload=AVxigLJ%2B6sySKmk8vCG9Uv1l65BE%2F6B%2BU9aHVZdn8DvYkmXrUKTBx4qxprTnFWjlClb75DNzCxjDCw6ukw8eWSENZ1XGmPb8xh6Tj13unga0HOV4g5f3kj8S0jAAfOghGHVyTw85AU3gfHodMliErexeKYwyi8Bax9vaO%2BbpK6A%3D&webInteractiveContentId=375163075810&portalId=25027870\" target=\"_blank\" rel=\"noopener\" crossorigin=\"anonymous\">
+    <img alt=\"Video&amp;nbsp;ansehen\" loading=\"lazy\" src=\"https://hubspot-no-cache-eu1-prod.s3.amazonaws.com/cta/default/25027870/interactive-375163075810.png\" style=\"height: 100%; width: 100%; object-fit: fill\"
       onerror=\"this.style.display='none'\" />
   </a>
 </div>"
@@ -138,12 +192,48 @@ ctas:
       onerror=\"this.style.display='none'\" />
   </a>
 </div>"
+- name: Contact Us - fr
+  occurence: 
+  script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-375162943716\"
+  style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"375162943716\">
+  <a href=\"https://cta-eu1.hubspot.com/web-interactives/public/v1/track/redirect?encryptedPayload=AVxigLIILs%2B4gge8jzg5k%2FBKZFlNkcO0d0C%2FqNb5nB7XJYrd%2Bx1GhWZDkczj4gFzkVLy2%2BneZHg7UbXxyxWJyufeUVGUq%2FkW8tR2hEAPZQv%2BgRX32IE%3D&webInteractiveContentId=375162943716&portalId=25027870\" target=\"_blank\" rel=\"noopener\" crossorigin=\"anonymous\">
+    <img alt=\"Contactez-nous\" loading=\"lazy\" src=\"https://hubspot-no-cache-eu1-prod.s3.amazonaws.com/cta/default/25027870/interactive-375162943716.png\" style=\"height: 100%; width: 100%; object-fit: fill\"
+      onerror=\"this.style.display='none'\" />
+  </a>
+</div>"
+- name: Contact Us - de
+  occurence: 
+  script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-375163075827\"
+  style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"375163075827\">
+  <a href=\"https://cta-eu1.hubspot.com/web-interactives/public/v1/track/redirect?encryptedPayload=AVxigLL4MmIkR8pgI7SUmiJSNzh0Dla%2FdYTbmwCq8Q%2BYc10QCbloNaG0JMyBPB%2FzfRkcZbSEMkmDL2F49sc7Gx2Fc%2FqmPOPXoq8%2FRg4BN3rv%2F3s9TgU%3D&webInteractiveContentId=375163075827&portalId=25027870\" target=\"_blank\" rel=\"noopener\" crossorigin=\"anonymous\">
+    <img alt=\"Kontakt\" loading=\"lazy\" src=\"https://hubspot-no-cache-eu1-prod.s3.amazonaws.com/cta/default/25027870/interactive-375163075827.png\" style=\"height: 100%; width: 100%; object-fit: fill\"
+      onerror=\"this.style.display='none'\" />
+  </a>
+</div>"
 - name: Book an appointment - en
   occurence: 
   script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-374773128426\"
   style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"374773128426\">
   <a href=\"https://cta-eu1.hubspot.com/web-interactives/public/v1/track/redirect?encryptedPayload=AVxigLKeruf0sBf7mnSU%2FrxoD%2FB7Mox9LFb2%2BxCLuCYsTSKRMk4rM8T1WyWomfy0VwPJmsZe4D1lG9M%2FSkQhhNq3UpTH8pADZL8T31120oLKoDfNCC0%3D&webInteractiveContentId=374773128426&portalId=25027870\" target=\"_blank\" rel=\"noopener\" crossorigin=\"anonymous\">
     <img alt=\"Book&amp;nbsp;an&amp;nbsp;appointment\" loading=\"lazy\" src=\"https://hubspot-no-cache-eu1-prod.s3.amazonaws.com/cta/default/25027870/interactive-374773128426.png\" style=\"height: 100%; width: 100%; object-fit: fill\"
+      onerror=\"this.style.display='none'\" />
+  </a>
+</div>"
+- name: Book an appointment - fr
+  occurence: 
+  script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-375162943690\"
+  style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"375162943690\">
+  <a href=\"https://cta-eu1.hubspot.com/web-interactives/public/v1/track/redirect?encryptedPayload=AVxigLIu7xMDlXUq3tpbugpElhf4ZERdtgwpk%2FUoESXCIZwaggZladx1LaO78zfh5rwIs1FVU7PP9Ms5ZTJoDdW88n7O7LL%2BT%2B%2BHViqZuLjPspnKVTc0ylV3iqTXQCaGty6ha9lkfAwIdpU0cjmEpXPfTF7SYGYnZnGETTqAC4o%3D&webInteractiveContentId=375162943690&portalId=25027870\" target=\"_blank\" rel=\"noopener\" crossorigin=\"anonymous\">
+    <img alt=\"Prendre&amp;nbsp;rendez-vous\" loading=\"lazy\" src=\"https://hubspot-no-cache-eu1-prod.s3.amazonaws.com/cta/default/25027870/interactive-375162943690.png\" style=\"height: 100%; width: 100%; object-fit: fill\"
+      onerror=\"this.style.display='none'\" />
+  </a>
+</div>"
+- name: Book an appointment - de
+  occurence: 
+  script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-375163409644\"
+  style=\"max-width:100%; max-height:100%; width:226px;height:50.390625px\" data-hubspot-wrapper-cta-id=\"375163409644\">
+  <a href=\"https://cta-eu1.hubspot.com/web-interactives/public/v1/track/redirect?encryptedPayload=AVxigLJhosfJVjYO1e9dPt3zMIOQFg1sDOqpm6TssYEXc3xLX4VpwWMpoSVuDwo5BB%2F6ESX61XnPLiIFUGJHI0iE9csIaXionY4Jzp6AsLPu4fQ7ms0%3D&webInteractiveContentId=375163409644&portalId=25027870\" target=\"_blank\" rel=\"noopener\" crossorigin=\"anonymous\">
+    <img alt=\"Termin&amp;nbsp;vereinbaren\" loading=\"lazy\" src=\"https://hubspot-no-cache-eu1-prod.s3.amazonaws.com/cta/default/25027870/interactive-375163409644.png\" style=\"height: 100%; width: 100%; object-fit: fill\"
       onerror=\"this.style.display='none'\" />
   </a>
 </div>"
