@@ -83,6 +83,8 @@ forms:
 new_forms:
 - name: FR - Gated content form proof of concept - landing page
   id: 8f8f3e12-70dd-4295-8c47-2c327126addd
+- name: DE - Gated content form proof of concept - landing page
+  id: 56963500-ac9d-495e-8559-f0f7e11f7f05
 - name: FR - Gated content form proof of concept - thank-you page
   id: d483c791-9712-44aa-9072-30d4d43f6881
 - name: FR - Newsletter registration form
