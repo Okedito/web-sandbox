@@ -55,7 +55,11 @@ main_domains:
 - name: Meetings scheduler
   type: CNAME
   host: meetings
-  value: To be confirmed, once main domains have been configured
+  value: 25027870.group0.sites.hscoscdn-eu1.net
+- name: Meetings scheduler - domain validation entry
+  type: TXT
+  host: _cf-custom-hostname.meetings
+  value: ce4d6dd5-42c4-4962-b04d-04a3e7232da0
 #sending_domains:
 #- domain:
 #  name: tradelios.com
