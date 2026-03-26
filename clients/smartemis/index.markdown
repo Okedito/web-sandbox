@@ -4,7 +4,7 @@ layout: page
 logo: yes
 language: en
 hs_region: eu1
-#hs_portalId: 147529884 #Sandbox
+hs_portalId_sandbox: 147934896 #Sandbox
 hs_portalId: 25027870 #Production
 brand_domain: smartemis.com
 main_domains:
@@ -253,7 +253,7 @@ ctas:
 {%- include section-introduction.html -%}
 
 {% if page.hs_portalId %}
-    {%- include section-tracking-code.html -%}
+    {%- include section-tracking-code-v2.html -%}
 {% endif %}
 
 {% if page.main_domains %}

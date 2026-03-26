@@ -1,0 +1,41 @@
+{% if page.language == "en" %}
+<h2>HubSpot tracking code</h2>
+<p>To be included on <strong>all</strong> pages of the website.</p>
+
+<p><a href="https://knowledge.hubspot.com/reports/install-the-hubspot-tracking-code" target="_blank">The HubSpot documentation provides more information on this topic.</a></p>
+
+<button onclick="CopyToClipboard('{{ page.hs_portalId }}')">Copy the code</button>
+
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//{% if page.hs_region == "na1" %}js{% else %}js-eu1{% endif%}.hs-scripts.com/{{ page.hs_portalId }}.js"></script>
+    <!-- End of HubSpot Embed Code -->
+  {:id="A{{ page.hs_portalId }}"}
+
+{% if page.hs_portalId_sandbox %}
+<h2>HubSpot tracking code (Sandbox)</h2>
+<p>To be used for <strong>testing</strong> purposes only.</p>
+
+<button onclick="CopyToClipboard('{{ page.hs_portalId_sandbox }}')">Copy the code</button>
+
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//{% if page.hs_region == "na1" %}js{% else %}js-eu1{% endif%}.hs-scripts.com/{{ page.hs_portalId_sandbox }}.js"></script>
+    <!-- End of HubSpot Embed Code -->
+  {:id="A{{ page.hs_portalId_sandbox }}"}
+{% endif %}
+
+{% else %}
+<h2>Tracking code HubSpot</h2>
+
+<p>A insérer sur <strong>toutes</strong> les pages du site web.</p>
+
+<p><a href="https://knowledge.hubspot.com/fr/reports/install-the-hubspot-tracking-code" target="_blank">La documentation de HubSpot donne plus d’informations sur ce sujet.</a></p>
+
+<button onclick="CopyToClipboard('{{ page.hs_portalId }}')">Copier le code</button>
+
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//{% if page.hs_region == "na1" %}js{% else %}js-eu1{% endif%}.hs-scripts.com/{{ page.hs_portalId }}.js"></script>
+    <!-- End of HubSpot Embed Code -->
+  {:id="A{{ page.hs_portalId }}"}
+{% endif %}
+
+<hr style="margin:2em 0">
