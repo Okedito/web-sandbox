@@ -7,8 +7,26 @@
   [La documentation de HubSpot indique comment insérer un CTA HubSpot sur une page externe.](https://knowledge.hubspot.com/fr/ctas/add-ctas-to-your-pages?hubs_content=knowledge.hubspot.com/ctas/add-ctas-to-your-pages&hubs_content-cta=fran%C3%A7ais&Sid=1#ajoutez-un-cta-%C3%A0-votre-contenu-externe:~:text=sur%20vos%20pages.-,Ajoutez%20un%20CTA%20%C3%A0%20votre%20contenu%20externe,-Pour%20ajouter%20un){:target="_blank"}
 {% endif %}
 
+{% if page.language == "en" %}
+  To be completed
+  {% elsif page.language == "fr" %}
+  Les CTA de type pop-up sont insérés automatiquement dès lors que le tracking code HubSpot est présent sur la page, et que les conditions d'affichage sont réunies.
+  [Plus d'informations ici.](https://knowledge.hubspot.com/fr/ctas/create-calls-to-action?hubs_content=knowledge.hubspot.com/ctas/create-calls-to-action&hubs_content-cta=fran%C3%A7ais#personnalisez-l-emplacement-et-le-moment-d-affichage-de-votre-banni%C3%A8re-autocollante-de-votre-fen%C3%AAtre-contextuelle-ou-de-votre-cta-coulissant:~:text=Enregistrer%20et%20appliquer.-,Personnalisez%20l%27emplacement%20et%20le%20moment%20d%27affichage%20de%20votre%20banni%C3%A8re%20autocollante%2C%20de%20votre%20fen%C3%AAtre%20contextuelle%20ou%20de%20votre%20CTA%20coulissant,-Si%20vous%20avez){:target="_blank"}
+{% endif %}
+
 {% for cta in page.ctas %}
 <h2>{{ cta.name }}</h2>
+
+{% if page.language == "en" %}
+  [Modify this CTA on HubSpot](https://app-eu1.hubspot.com/calls-to-action/{{ page.hs_portalId }}/edit/{{ cta.id }}/content){:target="_blank"}
+{% elsif page.language == "fr" %}
+  [Modifier ce CTA sur HubSpot](https://app-eu1.hubspot.com/calls-to-action/{{ page.hs_portalId }}/edit/{{ cta.id }}/content){:target="_blank"}
+{% endif %}
+
+{% if cta.type == "pop-up" %}
+
+
+{% elsif cta.type == "embedded" %}
 <button onclick="CopyToClipboard('{{ cta.occurence }}')">Copier le code</button>
 
     <!-- Begin HubSpot Call-to-Action Code -->
@@ -19,6 +37,9 @@
   <!-- Begin HubSpot Call-to-Action Code -->
 {{ cta.script }}
 <!-- End HubSpot Call-to-Action Code -->
+{% endif %}
+
+
 
 <hr style="margin:2em 0">
 {% endfor %}

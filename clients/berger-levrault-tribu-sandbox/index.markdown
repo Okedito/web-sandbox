@@ -84,10 +84,21 @@ forms:
 new_forms:
 - name: TEST - Exemple de formulaire de contact
   id: ba3b534f-fd28-4f66-8ba5-4a42a5d2364e
-#ctas:
-#- name: TEST - CTA pop-up Découvrir les solutions
-#  occurence: first
-#  script: ""
+ctas:
+- name: TEST - CTA pop-up Découvrir les solutions
+  id: 394638614759
+  type: pop-up
+- name: TEST - CTA embedded Découvrir les solutions
+  id: 394667419879
+  type: embedded
+  occurence: first
+  script: "<div class=\"hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-394667419879\"
+  style=\"max-width:100%; max-height:100%; width:700px;height:315.8984375px\" data-hubspot-wrapper-cta-id=\"394667419879\">
+  <a href=\"https://cta-eu1.hubspot.com/web-interactives/public/v1/track/redirect?encryptedPayload=AVxigLJttuoHGKtSZd9RgKiG974xx4ePKIzRhfZjnR3kvd%2FigaFwo2Gw04odNPIKxQjdQU5mYc2Uc8sFgSwkmwbFtamIzhmYu1wBFaj3QVXMzKFezcdmByTmCzuIAHDaGFIS5bhOEhEdNUzBWhbNWuWXq7G7nPVAaZZFFm2AHwZ0NbcjtlQzimXSlzGSMlL2mp1WBP8owh%2BS8LfQEjCGlj%2Bw3ATr9BV0QtVGy3VZ1gFm4z2W5GkT%2Bc4g5gu3zPutsc1DI53yEn4tHzTiyCBxnrFvCzf3GL456bTbso7p7bGXZeHX9Q%3D%3D&webInteractiveContentId=394667419879&portalId=147990385\" target=\"_blank\" rel=\"noopener\" crossorigin=\"anonymous\">
+    <img alt=\"FREE KIT DOWNLOAD Community Management 3 templates to help you build, grow and connect with your community. &nbsp;\" loading=\"lazy\" src=\"https://hubspot-no-cache-eu1-prod.s3.amazonaws.com/cta/default/147990385/interactive-394667419879.png\" style=\"height: 100%; width: 100%; object-fit: fill\"
+      onerror=\"this.style.display='none'\" />
+  </a>
+</div>"
 ---
 {%- include section-introduction.html -%}
 
@@ -118,3 +129,7 @@ new_forms:
 {% if page.ctas %}
     {%- include section-ctas-v2.html -%}
 {% endif %}
+
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/147990385.js"></script>
+<!-- End of HubSpot Embed Code -->
