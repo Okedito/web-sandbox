@@ -1,7 +1,8 @@
 ---
-title: Berger-Levrault TriBU
+title: Berger-Levrault TriBU - Sandbox
 layout: page
 logo: yes
+sandbox: yes
 language: fr
 hs_region: eu1
 hs_portalId: 146037277 #Production
