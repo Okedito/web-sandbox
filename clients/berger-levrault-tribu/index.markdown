@@ -2,10 +2,10 @@
 title: Berger-Levrault TriBU - Sandbox
 layout: page
 logo: yes
-sandbox: yes
+sandbox: no
 language: fr
 hs_region: eu1
-hs_portalId: 147990385 #Sandbox
+hs_portalId: 146037277 #Production
 brand_domain: berger-levrault.com
 main_domains:
 #- name: Website pages	
@@ -75,17 +75,17 @@ main_domains:
 #  dmarc_type: TXT
 #  dmarc_host: _dmarc
 #  dmarc_value: v=DMARC1; p=none;
-forms:
-- name: TEST - Exemple de formulaire de contact (legacy)
-  id: 236bfb72-c0c6-498e-85d7-7e4f6e0107c7
+#forms:
+#- name: 
+#  id: 
 #  onFormReady: function($form) { XYZ }
 #  onFormSubmit: function($form) { XYZ }
 #  onFormSubmitted: function($form) { XYZ }
-new_forms:
-- name: TEST - Exemple de formulaire de contact
-  id: ba3b534f-fd28-4f66-8ba5-4a42a5d2364e
+#new_forms:
+#- name: 
+#  id: 
 #ctas:
-#- name: TEST - CTA pop-up Découvrir les solutions
+#- name: EN - Download Whitepaper
 #  occurence: first
 #  script: ""
 ---
