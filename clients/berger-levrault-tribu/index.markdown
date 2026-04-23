@@ -1,5 +1,5 @@
 ---
-title: Berger-Levrault TriBU - Sandbox
+title: Berger-Levrault TriBU
 layout: page
 logo: yes
 sandbox: no
@@ -16,22 +16,46 @@ main_domains:
 #  type: CNAME
 #  host: blog
 #  value: 
-#- name: Landing pages	
-#  type: CNAME
-#  host: info
-#  value: 
-#- name: Landing pages - domain validation entry
-#  type: TXT
-#  host: _cf-custom-hostname.info
-#  value: 
-#- name: Marketing email (web version)
-#  type: CNAME
-#  host: email
-#  value: 
-#- name: Marketing email (web version) - domain validation entry
-#  type: TXT
-#  host: _cf-custom-hostname.email
-#  value: 
+- name: Landing pages	
+  type: CNAME
+  host: collectivites
+  value: 146037277.group0.sites.hscoscdn-eu1.net
+- name: Landing pages - validation du sous-domaine
+  type: TXT
+  host: _cf-custom-hostname.collectivites
+  value: c4d08e27-de1a-45bf-a540-74a7673146c6
+- name: Landing pages	
+  type: CNAME
+  host: sante
+  value: 146037277.group0.sites.hscoscdn-eu1.net
+- name: Landing pages - validation du sous-domaine
+  type: TXT
+  host: _cf-custom-hostname.sante
+  value: 7eac2c65-c644-4e21-ad3d-f6a4dcf0c64e
+- name: Landing pages	
+  type: CNAME
+  host: edition
+  value: 146037277.group0.sites.hscoscdn-eu1.net
+- name: Landing pages - validation du sous-domaine
+  type: TXT
+  host: _cf-custom-hostname.edition
+  value: c98f35ab-9a15-4cf5-bcef-623008320d1a
+- name: Marketing email (web version)
+  type: CNAME
+  host: email
+  value: 146037277.group0.sites.hscoscdn-eu1.net
+- name: Marketing email (web version) - validation du sous-domaine
+  type: TXT
+  host: _cf-custom-hostname.email
+  value: 78e837cb-e5d6-4f52-a747-7631706fb0da
+- name: Marketing email (web version)
+  type: CNAME
+  host: mail
+  value: 146037277.group0.sites.hscoscdn-eu1.net
+- name: Marketing email (web version) - validation du sous-domaine
+  type: TXT
+  host: _cf-custom-hostname.mail
+  value: c85a4c5b-ae7a-401f-8e04-c7a71cd70632
 #- name: Sales & service email (tracking)
 #  type: CNAME
 #  host: ???
@@ -56,25 +80,25 @@ main_domains:
 #  type: CNAME
 #  host: meetings
 #  value: 25027870.group0.sites.hscoscdn-eu1.net
-#- name: Meetings scheduler - domain validation entry
+#- name: Meetings scheduler - validation du sous-domaine
 #  type: TXT
 #  host: _cf-custom-hostname.meetings
 #  value: ce4d6dd5-42c4-4962-b04d-04a3e7232da0
-#sending_domains:
-#- domain:
-#  name: tradelios.com
-#  dkim_main_type: CNAME
-#  dkim_main_host: hs1-147202787._domainkey
-#  dkim_main_value: tradelios-com.hs04a.dkim.hubspotemail.net.
-#  dkim_secondary_type: CNAME
-#  dkim_secondary_host: hs2-147202787._domainkey
-#  dkim_secondary_value: tradelios-com.hs04b.dkim.hubspotemail.net.
-#  spf_type: TXT
-#  spf_host: "@"
-#  spf_value: include:147202787.spf04.hubspotemail.net
-#  dmarc_type: TXT
-#  dmarc_host: _dmarc
-#  dmarc_value: v=DMARC1; p=none;
+sending_domains:
+- domain:
+  name: berger-levrault.com
+  dkim_main_type: CNAME
+  dkim_main_host: hs1-146037277._domainkey
+  dkim_main_value: berger--levrault-com.hs11a.dkim.hubspotemail.net.
+  dkim_secondary_type: CNAME
+  dkim_secondary_host: hs2-146037277._domainkey
+  dkim_secondary_value: berger--levrault-com.hs11b.dkim.hubspotemail.net.
+  spf_type: TXT
+  spf_host: "@"
+  spf_value: include:146037277.spf08.hubspotemail.net
+  dmarc_type: TXT
+  dmarc_host: _dmarc
+  dmarc_value: v=DMARC1; p=none;
 #forms:
 #- name: 
 #  id: 
