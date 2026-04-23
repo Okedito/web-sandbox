@@ -99,6 +99,20 @@ sending_domains:
   dmarc_type: TXT
   dmarc_host: _dmarc
   dmarc_value: v=DMARC1; p=none;
+- domain:
+  name: clients.berger-levrault.com
+  dkim_main_type: CNAME
+  dkim_main_host: hs1-146037277._domainkey.clients
+  dkim_main_value: clients-berger--levrault-com.hs11a.dkim.hubspotemail.net.
+  dkim_secondary_type: CNAME
+  dkim_secondary_host: hs2-146037277._domainkey.clients
+  dkim_secondary_value: clients-berger--levrault-com.hs11b.dkim.hubspotemail.net.
+  spf_type: TXT
+  spf_host: "@"
+  spf_value: v=spf1 include:146037277.spf08.hubspotemail.net -all
+  dmarc_type: TXT
+  dmarc_host: _dmarc
+  dmarc_value: v=DMARC1; p=none;
 #forms:
 #- name: 
 #  id: 
