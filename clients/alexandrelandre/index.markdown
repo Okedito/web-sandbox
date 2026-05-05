@@ -8,10 +8,14 @@ hs_region: eu1
 hs_portalId: 146711514
 brand_domain: alexandrelandre.com
 main_domains:
-#- name: Website pages	
-#  type: CNAME
-#  host: website-page
-#  value: 
+- name: Pages de site web	
+  type: CNAME
+  host: client
+  value: 146711514.group0.sites.hscoscdn-eu1.net
+- name: Pages de site web - validation du nom de domaine
+  type: TXT
+  host: _cf-custom-hostname.client
+  value: d46c70dd-185f-49f9-91b0-38ea598cdab4
 #- name: Blog
 #  type: CNAME
 #  host: blog
@@ -24,14 +28,14 @@ main_domains:
 #  type: TXT
 #  host: _cf-custom-hostname.info
 #  value: 
-#- name: Marketing email (web version)
-#  type: CNAME
-#  host: email
-#  value: 
-#- name: Marketing email (web version) - domain validation entry
-#  type: TXT
-#  host: _cf-custom-hostname.email
-#  value: 
+- name: Email marketing
+  type: CNAME
+  host: email
+  value: 146711514.group0.sites.hscoscdn-eu1.net
+- name: Email marketing - validation du nom de domaine
+  type: TXT
+  host: _cf-custom-hostname.email
+  value: ad878d99-2381-4e94-bea7-b6464d68cb4d
 #- name: Sales & service email (tracking)
 #  type: CNAME
 #  host: ???
@@ -60,21 +64,21 @@ main_domains:
 #  type: TXT
 #  host: _cf-custom-hostname.meetings
 #  value: ce4d6dd5-42c4-4962-b04d-04a3e7232da0
-#sending_domains:
-#- domain:
-#  name: tradelios.com
-#  dkim_main_type: CNAME
-#  dkim_main_host: hs1-147202787._domainkey
-#  dkim_main_value: tradelios-com.hs04a.dkim.hubspotemail.net.
-#  dkim_secondary_type: CNAME
-#  dkim_secondary_host: hs2-147202787._domainkey
-#  dkim_secondary_value: tradelios-com.hs04b.dkim.hubspotemail.net.
-#  spf_type: TXT
-#  spf_host: "@"
-#  spf_value: include:147202787.spf04.hubspotemail.net
-#  dmarc_type: TXT
-#  dmarc_host: _dmarc
-#  dmarc_value: v=DMARC1; p=none;
+sending_domains:
+- domain:
+  name: alexandrelandre.com
+  dkim_main_type: CNAME
+  dkim_main_host: hs1-146711514._domainkey
+  dkim_main_value: alexandrelandre-com.hs14a.dkim.hubspotemail.net.
+  dkim_secondary_type: CNAME
+  dkim_secondary_host: hs2-146711514._domainkey
+  dkim_secondary_value: alexandrelandre-com.hs14b.dkim.hubspotemail.net.
+  spf_type: TXT
+  spf_host: "@"
+  spf_value: include:146711514.spf08.hubspotemail.net
+  dmarc_type: TXT
+  dmarc_host: _dmarc
+  dmarc_value: v=DMARC1; p=none;
 #forms:
 #- name: 
 #  id: 
