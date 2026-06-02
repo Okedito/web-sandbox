@@ -76,7 +76,7 @@ brand_domain: carl-software.com
 #  dmarc_host: _dmarc
 #  dmarc_value: v=DMARC1; p=none;
 forms:
-- name: Demande de contact
+- name: Demande de contact (Formulaire HTML brut, pour tests)
   id: 36a2a17b-bbc0-4280-9b11-2ba8a6b95691
 #  onFormReady: function($form) { XYZ }
 #  onFormSubmit: function($form) { XYZ }
