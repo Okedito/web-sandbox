@@ -86,13 +86,13 @@ main_domains:
 #  value: ce4d6dd5-42c4-4962-b04d-04a3e7232da0
 sending_domains:
 - domain:
-  name: berger-levrault.com
+  name: email.berger-levrault.com
   dkim_main_type: CNAME
-  dkim_main_host: hs1-146037277._domainkey
-  dkim_main_value: berger--levrault-com.hs11a.dkim.hubspotemail.net.
+  dkim_main_host: hs1-146037277._domainkey.email
+  dkim_main_value: email-berger--levrault-com.hs11a.dkim.hubspotemail.net.
   dkim_secondary_type: CNAME
-  dkim_secondary_host: hs2-146037277._domainkey
-  dkim_secondary_value: berger--levrault-com.hs11b.dkim.hubspotemail.net.
+  dkim_secondary_host: hs2-146037277._domainkey.email
+  dkim_secondary_value: email-berger--levrault-com.hs11b.dkim.hubspotemail.net.
   spf_type: TXT
   spf_host: "@"
   spf_value: include:146037277.spf08.hubspotemail.net
