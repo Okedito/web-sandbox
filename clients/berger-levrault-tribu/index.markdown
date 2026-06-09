@@ -94,7 +94,7 @@ sending_domains:
   dkim_secondary_host: hs2-146037277._domainkey.email
   dkim_secondary_value: email-berger--levrault-com.hs11b.dkim.hubspotemail.net.
   spf_type: TXT
-  spf_host: "@"
+  spf_host: email
   spf_value: include:146037277.spf08.hubspotemail.net
   dmarc_type: TXT
   dmarc_host: _dmarc
@@ -108,7 +108,7 @@ sending_domains:
   dkim_secondary_host: hs2-146037277._domainkey.clients
   dkim_secondary_value: clients-berger--levrault-com.hs11b.dkim.hubspotemail.net.
   spf_type: TXT
-  spf_host: "@"
+  spf_host: clients
   spf_value: v=spf1 include:146037277.spf08.hubspotemail.net -all
   dmarc_type: TXT
   dmarc_host: _dmarc

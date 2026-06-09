@@ -62,16 +62,16 @@ main_domains:
 #  value: ce4d6dd5-42c4-4962-b04d-04a3e7232da0
 sending_domains:
 - domain:
-  name: carl-software.com
+  name: email.carl-software.com
   dkim_main_type: CNAME
-  dkim_main_host: hs1-147339785._domainkey
-  dkim_main_value: carl--software-com.hs12a.dkim.hubspotemail.net.
+  dkim_main_host: hs1-147339785._domainkey.email
+  dkim_main_value: email-carl--software-com.hs12a.dkim.hubspotemail.net.
   dkim_secondary_type: CNAME
-  dkim_secondary_host: hs2-147339785._domainkey
-  dkim_secondary_value: carl--software-com.hs12b.dkim.hubspotemail.net.
+  dkim_secondary_host: hs2-147339785._domainkey.email
+  dkim_secondary_value: email-carl--software-com.hs12b.dkim.hubspotemail.net.
   spf_type: TXT
-  spf_host: "@"
-  spf_value: include:147339785.spf05.hubspotemail.net
+  spf_host: email
+  spf_value: v=spf1 include:147339785.spf05.hubspotemail.net -all
   dmarc_type: TXT
   dmarc_host: _dmarc
   dmarc_value: v=DMARC1; p=none;
