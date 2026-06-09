@@ -8,22 +8,6 @@ hs_region: eu1
 hs_portalId: 147339785 #Production
 brand_domain: carl-software.com
 main_domains:
-#- name: Website pages	
-#  type: CNAME
-#  host: website-page
-#  value: 
-#- name: Blog
-#  type: CNAME
-#  host: blog
-#  value: 
-#- name: Landing pages	
-#  type: CNAME
-#  host: collectivites
-#  value: 146037277.group0.sites.hscoscdn-eu1.net
-#- name: Landing pages - validation du sous-domaine
-#  type: TXT
-#  host: _cf-custom-hostname.collectivites
-#  value: c4d08e27-de1a-45bf-a540-74a7673146c6
 - name: Marketing email (web version)
   type: CNAME
   host: news
