@@ -16,22 +16,22 @@ main_domains:
 #  type: CNAME
 #  host: blog
 #  value: 
-#- name: Landing pages	
-#  type: CNAME
-#  host: 
-#  value: 
-#- name: Landing pages - validation du sous-domaine
-#  type: TXT
-#  host: 
-#  value: 
-#- name: Marketing email (web version)
-#  type: CNAME
-#  host: mail
-#  value: 
-#- name: Marketing email (web version) - validation du sous-domaine
-#  type: TXT
-#  host: 
-#  value: 
+- name: Landing pages	
+  type: CNAME
+  host: experience
+  value: 148534280.group0.sites.hscoscdn-eu1.net
+- name: Landing pages - validation du sous-domaine
+  type: TXT
+  host: _cf-custom-hostname.experience
+  value: 8801d614-591d-4420-8ff4-82d1265d664b
+- name: Marketing email (web version)
+  type: CNAME
+  host: email
+  value: 148534280.group0.sites.hscoscdn-eu1.net
+- name: Marketing email (web version) - validation du sous-domaine
+  type: TXT
+  host: _cf-custom-hostname.email
+  value: a5ff679c-eb5b-4a69-8e70-c2602d6e6f1a
 #- name: Sales & service email (tracking)
 #  type: CNAME
 #  host: ???
@@ -60,21 +60,21 @@ main_domains:
 #  type: TXT
 #  host: _cf-custom-hostname.meetings
 #  value: ce4d6dd5-42c4-4962-b04d-04a3e7232da0
-#sending_domains:
-#- domain:
-#  name: 
-#  dkim_main_type: CNAME
-#  dkim_main_host: 
-#  dkim_main_value: 
-#  dkim_secondary_type: CNAME
-#  dkim_secondary_host: 
-#  dkim_secondary_value: 
-#  spf_type: TXT
-#  spf_host: 
-#  spf_value: 
-#  dmarc_type: TXT
-#  dmarc_host: _dmarc
-#  dmarc_value: v=DMARC1; p=none;
+sending_domains:
+- domain:
+  name: chalets-covarel.fr
+  dkim_main_type: CNAME
+  dkim_main_host: hs1-148534280._domainkey
+  dkim_main_value: chalets--covarel-fr.hs15a.dkim.hubspotemail.net.
+  dkim_secondary_type: CNAME
+  dkim_secondary_host: hs2-148534280._domainkey
+  dkim_secondary_value: chalets--covarel-fr.hs15b.dkim.hubspotemail.net.
+  spf_type: TXT
+  spf_host: "@"
+  spf_value: include:148534280.spf04.hubspotemail.net
+  dmarc_type: TXT
+  dmarc_host: _dmarc
+  dmarc_value: v=DMARC1; p=none;
 forms:
 - name: Formulaire de contact (legacy)
   id: 665aa003-75dc-472a-9456-d278a400d3d4
