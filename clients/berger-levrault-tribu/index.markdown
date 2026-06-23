@@ -42,12 +42,12 @@ main_domains:
   value: c98f35ab-9a15-4cf5-bcef-623008320d1a
 - name: Marketing email (web version)
   type: CNAME
-  host: email
+  host: info
   value: 146037277.group0.sites.hscoscdn-eu1.net
 - name: Marketing email (web version) - validation du sous-domaine
   type: TXT
-  host: _cf-custom-hostname.email
-  value: 78e837cb-e5d6-4f52-a747-7631706fb0da
+  host: _cf-custom-hostname.info
+  value: 15edc602-f0fe-4c7f-b636-db8e701f9d28
 - name: Marketing email (web version)
   type: CNAME
   host: mail
